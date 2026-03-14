@@ -13,6 +13,7 @@
 * 1 X SG90 Micro Servo Motor
 * 1 X Ultrasonic sensor HC-SR04 HCSR04 
 * 1 X Diagramme du rover
+* 1 X 10*15mm Snap-in Rocker Switch ON-OFF 
 * 2 X NRF24l01+
 * 2 X NRF24L01+ Radio Module
 * 1 X uCompute RP2040 ver1.3 module (Remote)
