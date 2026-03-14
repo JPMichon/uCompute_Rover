@@ -24,6 +24,7 @@
 * 1 X AMG8833 IR 8x8 Thermal Imager Array Temperature Sensor Module
 * 1 X AHT20+BMP280 Temperature Humidity and Air Pressure Module High-precision Digital Sensor IIC I2C
 * 1 X ENS160+AHT21 Carbon Dioxide CO2 eCO2 TVOC Air Quality & Temperature & Humidity Sensor Module
-* ou tout autre modules selon vos préférences
+* Ou tout autres modules selon vos préférences
 
+## Vue d'ensemble du Rover
 ![Diagramme du rover](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_Diagram_V1.png)
