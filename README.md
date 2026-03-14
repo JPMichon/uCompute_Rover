@@ -1,7 +1,7 @@
 # uCompute_Rover
 4WD Rover  conçu pour utiliser les modules uCompute 1 ou 2 comme fondation.
 
-##Materiel requis
+##Materiel requis\
 *4 X DC Gearbox Motor - "TT Motor" - 200RPM - 3 to 6VDC
 *2 X DRV8833 Dual H-Bridge Motor Control Module 1.5A 3-10V
 *1 X uCompute RP2040 ver1.3 module (Rover)
@@ -9,7 +9,7 @@
 *1 X LM2596 DC-DC Step Down converter de 3 A (ou éqivalent)
 *6 x AA Battery Case Shell Storage Holder (ou éqivalent)
 
-optionels
+optionels\
 *1 X SG90 Micro Servo Motor
 *1 X Ultrasonic sensor HC-SR04 HCSR04 
 *1 X Diagramme du rover
