@@ -29,3 +29,9 @@
 
 ## Vue d'ensemble du Rover
 ![Diagramme du rover](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_Diagram_V1.png)
+
+# Rover Module
+Le Rover module est un module ce connectant a l'interface du board principale. Celui est intègre le port VIN devant absolument etre alimenter en CC 5volts avec une source pouvant délivrer environ 2 amp. 
+De ce 5 volts est alimenté directement, le servo, le HC-SR04, les deux modules DRV8833 et finalement, il alimente la broche 5 volts du module principale servant de CC pour le circuit de régulation. 
+Le module GPS est alimenté en 3.3volts a partir du régulateur du module principale. 
+
