@@ -43,4 +43,15 @@ Le module GPS est alimenté en 3.3volts a partir du régulateur du module princi
 Il est possible de piloter le Rover en mode manuelle a l'aide du controleur connecté a un second uCompute.
 Le lien est assuré par un lien bidirectionnel de 2.4Ghz (NRF24l01+) permettant au Rover d'envoyer de la télémetrie au module remote.
 ![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Remote_PCB.png)
-![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/remote_3D.png)
+![Vue_3D du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/remote_3D.png)
+
+# NRF24l01+ Radio Module
+La communication ce fait à l'aide d'un module radio NRF24l01+. il est connecter au uCompute via un adapteur ce connectant à l'arrière du uCompute. (Le connecteur réservé au module W5500)
+Le module radio permet d'utiliser au choix le NRF muni du header 2x4 ou la version mini SMD. 
+
+:warning: Faite attention au Pinout du NRF24l01+ version MINI, il y a plusieurs models en circulations n'utilisant pas le même pinout.
+Voici celui qui est compatible avec le module
+<img width="600" height="388" alt="image" src="https://github.com/user-attachments/assets/2d369d93-8f68-4ab3-b6ad-2c9edd94b463" />
+
+
+![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/nrf24l01_RadioModule.png)
