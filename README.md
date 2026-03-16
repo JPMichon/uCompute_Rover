@@ -38,3 +38,9 @@ De ce 5 volts est alimenté directement, le servo, le HC-SR04, les deux modules 
 Le module GPS est alimenté en 3.3volts a partir du régulateur du module principale. 
 ![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Rover_pcb.png)
 ![vue 3D du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Rover_module.png)
+
+# Remote Module
+Il est possible de piloter le Rover en mode manuelle a l'aide du controleur connecté a un second uCompute.
+Le lien est assuré par un lien bidirectionnel de 2.4Ghz (NRF24l01+) permettant au Rover d'evoyer de la telemetrie à la base.
+![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Remote_PCB.png)
+![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Remote_3D.png)
