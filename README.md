@@ -51,7 +51,8 @@ Le module radio permet d'utiliser au choix le NRF muni du header 2x4 ou la versi
 
 :warning: Faite attention au Pinout du NRF24l01+ version MINI, il y a plusieurs models en circulations n'utilisant pas le même pinout.
 Voici celui qui est compatible avec le module
+
 <img width="600" height="388" alt="image" src="https://github.com/user-attachments/assets/2d369d93-8f68-4ab3-b6ad-2c9edd94b463" />
 
-
+Voici a quoi ressemble le module
 ![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/nrf24l01_RadioModule.png)
