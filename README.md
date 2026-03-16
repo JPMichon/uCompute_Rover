@@ -49,10 +49,10 @@ Le lien est assuré par un lien bidirectionnel de 2.4Ghz (NRF24l01+) permettant 
 La communication ce fait à l'aide d'un module radio NRF24l01+. il est connecter au uCompute via un adapteur ce connectant à l'arrière du uCompute. (Le connecteur réservé au module W5500)
 Le module radio permet d'utiliser au choix le NRF muni du header 2x4 ou la version mini SMD. 
 
-:warning: Faite attention au Pinout du NRF24l01+ version MINI, il y a plusieurs models en circulations n'utilisant pas le même pinout.
-Voici celui qui est compatible avec le module
-
 <img width="600" height="388" alt="image" src="https://github.com/user-attachments/assets/2d369d93-8f68-4ab3-b6ad-2c9edd94b463" />
 
-Voici a quoi ressemble le module
+:warning: Faite attention au Pinout du NRF24l01+ version MINI, il y a plusieurs models en circulations n'utilisant pas le même pinout.
+Voici celui qui est compatible avec le module.
+
+
 ![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/nrf24l01_RadioModule.png)
