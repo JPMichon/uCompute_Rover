@@ -43,4 +43,4 @@ Le module GPS est alimenté en 3.3volts a partir du régulateur du module princi
 Il est possible de piloter le Rover en mode manuelle a l'aide du controleur connecté a un second uCompute.
 Le lien est assuré par un lien bidirectionnel de 2.4Ghz (NRF24l01+) permettant au Rover d'evoyer de la telemetrie à la base.
 ![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Remote_PCB.png)
-![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Remote_3D.png)
+![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/remote_3D.png)
