@@ -47,7 +47,8 @@ Le lien est assuré par un lien bidirectionnel de 2.4Ghz (NRF24l01+) permettant 
 
 # NRF24l01+ Radio Module
 La communication ce fait à l'aide d'un module radio NRF24l01+. il est connecter au uCompute via un adapteur ce connectant à l'arrière du uCompute. (Le connecteur réservé au module W5500)
-Le module radio permet d'utiliser au choix le NRF muni du header 2x4 ou la version mini SMD. 
+Le module radio permet d'utiliser au choix le NRF muni d'un header DIN 2x4 ou la version mini SMD. des versions existe avec amplificateur de signal (PA+LNA) permettant de connecter une antenne externe via un connecteur IPEX permettant ainsi d'augmenter considérablement la portée.
+Selon certaine source, selon le débit, il est possible d'établir une communication sur plusieurs kilometres, En plus de supporter le Meshing. 
 
 <img width="600" height="388" alt="image" src="https://github.com/user-attachments/assets/2d369d93-8f68-4ab3-b6ad-2c9edd94b463" />
 
