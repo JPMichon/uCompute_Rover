@@ -58,5 +58,5 @@ https://docs.nordicsemi.com/bundle/nRF24L01P_PS_v1.0/resource/nRF24L01P_PS_v1.0.
 Le module accepte l'original (MK1), la version Mini avec avec le VCC et GND contigue et la version GT-24 avec le VCC et le GND au extrémité.
 
 
-<img width="1255" height="1589" alt="image" src="https://github.com/user-attachments/assets/03a7755e-c8d2-41c1-83bf-6111f0cfade9" />
+<img width="628" height="795" alt="image" src="https://github.com/user-attachments/assets/03a7755e-c8d2-41c1-83bf-6111f0cfade9" />
 
