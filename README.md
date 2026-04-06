@@ -57,4 +57,5 @@ https://docs.nordicsemi.com/bundle/nRF24L01P_PS_v1.0/resource/nRF24L01P_PS_v1.0.
 Voici celui qui est compatible avec le module.
 
 
-![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/nrf24l01_RadioModule.png)
+<img width="1255" height="1589" alt="image" src="https://github.com/user-attachments/assets/03a7755e-c8d2-41c1-83bf-6111f0cfade9" />
+
