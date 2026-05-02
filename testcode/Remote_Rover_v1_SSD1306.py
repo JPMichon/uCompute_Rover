@@ -153,13 +153,26 @@ def MainDisplay(p_gauche, p_droite):
     oled.text(str(p_gauche) +"  " + str(p_droite), 10, 45)
     oled.show()
 
+def init_puissance():
+    # 'h' signifie "signed short" (entier 16 bits signé), idéal pour -100 à 100
+    # On envoie deux valeurs : moteur gauche et moteur droit
+    COMM_LOST(0)
+    payload = struct.pack("hh", 0, 0)
+    try:
+        nrf.send(payload)
+        LastPayload=payload
+        #print(f"Envoyé: G={p_gauche}, D={p_droite}")
+    except OSError:
+        #print("Erreur d'envoi (pas de réponse du robot)")
+        COMM_LOST(1)
+        
 def envoyer_puissance(p_gauche, p_droite):
     # 'h' signifie "signed short" (entier 16 bits signé), idéal pour -100 à 100
     # On envoie deux valeurs : moteur gauche et moteur droit
     COMM_LOST(0)
     payload = struct.pack("hh", p_gauche, p_droite)
     try:
-        nrf.send(payload)
+        nrf.send_start(payload)
         LastPayload=payload
         #print(f"Envoyé: G={p_gauche}, D={p_droite}")
     except OSError:
@@ -205,7 +218,7 @@ WaitInputKey()
 try:
     nrf = setup_NRF24l01()
 except OSError:
-    #print("Erreur d'envoi (pas de réponse du robot)")
+    print("NRF24l01 not found")
     COMM_LOST(1)
     oled.fill(0)
     oled.text('err Comm. Module', 0, 0)
@@ -215,7 +228,7 @@ except OSError:
     oled.show()
     while True: # puisqu'il y a une erreure, je boucle en infini car cela ne sert a rien de continuer
         utime.sleep(0.1)
-        
+init_puissance() #initialisation puissance 0,0 pour ouvrir le canal de communication        
 p_gauche=0
 p_droite=0
 
@@ -228,7 +241,6 @@ while True:
     # --- Exemple d'utilisation ---
     # Si x=65535 (droite toute) et y=65535 (avant toute)
     p_gauche, p_droite = get_motor_powers(value_X, value_Y)
-    if (Last_G != p_gauche) or (Last_D != p_droite): # si il n'y a pas de changement, je skip la transmission
-        envoyer_puissance(p_gauche, p_droite)
+    envoyer_puissance(p_gauche, p_droite)
     MainDisplay(p_gauche, p_droite)
-    utime.sleep(0.1)
+    
