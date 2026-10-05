@@ -1,49 +1,56 @@
 # Impression du Rover
 
-Voici une image des pièces que voua devez imprimer afin de procéder à l'assemblage du Rover.
+## Voici un tableau récapitulatif des pièces à imprimer.
+
+| Catégorie | Nom de la pièce | Fichier STL recommandé | Quantité | Taux de remplissage (Infill) suggéré | Notes et spécificités |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| **Structure Principale** | **Les Côtés** | `Rover_Side_L_fixed.stl`<br>`Rover_Side_R_fixed.stl` | **2** *(1 gauche / 1 droit)* | **30 %** | Côtés latéraux du Rover. |
+| **Structure Principale** | **Les Jambes** | `Rover_Legs_V4.stl` | **2** | **30 %** | La version **V4** permet d'utiliser des vis de **25 mm x 3 mm**. Pièce mécanique sollicitée. |
+| **Structure Principale** | **Détection de Collision** | `frontal_sensor_v3.stl` | **1** | **30 %** | La version **v3** permet d'accueillir un module de **8 Neopixels** en plus du capteur **HC-SR04**. |
+| **Structure Principale** | **Tablette** | `Tablette.stl` | **2** | **30 %** | Support structurel de base et logement pour les batteries. |
+| **Structure Principale** | **Tablette du Haut** | `Servo_plate_v2.stl` | **1** | **30 %** | Reçoit un **servo-moteur 9g** et sert de support pour les antennes. |
+| **Électronique & Capteurs**| **Tableau Électronique** | `Electronic_plate_v2_uCRP2040.stl` | **1** | **30 %** | Conçu pour la carte **RP2040 Ucompute V1.3**. |
+
+## Vue des pièces imprimés
 
 <img width="824" height="688" alt="image" src="https://github.com/user-attachments/assets/f10d11fc-7654-4ade-9636-a0aaced1e533" />
 
 A noter que sur la photo, les **jambes** (En rouge) sont déjà assembler aux pièces latérales (**cotés**) en blanc. il sont simplement inséré en presse-fit. vous pouvez mettre une goutte de colle cyanoacrylate afin de vous assurez d'une union éternelle.
 
-# Les cotés
+---
 
-Vous arez besoins des cotés droit et gauche:
+# 🛠️ Guide d'Assemblage – uCompute Rover
+Ce guide détaille les étapes nécessaires pour assembler la structure mécanique et les supports électroniques du Rover.
 
+## 📋 Étape 1 : Inventaire et Impression des Pièces
+Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants nécessaires en quantité suffisante :
 
-https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/Rover_Side_L_fixed.stl
-https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/Rover_Side_R_fixed.stl
+### Pièces structurales et de liaison<br>
+• **Les Cotés (2x)** : 1x `Rover_Side_L_fixed.stl` (Gauche) et 1x `Rover_Side_R_fixed.stl` (Droit).<br>
+• **Les Jambes (2x)** : Imprimer deux fois le fichier sélectionné (Ex: Rover_Legs_V4 pour utiliser des vis de 25 mm x 3 mm).<br>
+• **Tablette (2x)** : Imprimer deux fois le fichier `Tablette.stl`. Servent de support structurel et de bac pour les batteries.
 
-# Les jambes
-Pour les jambes, vous devez imprimer deux fois (2X) le fichier suivant. 
+### Pièces structurales transversales<br>
+• **Tablette du haut (1x)** : `Servo_plate_v2.stl` (Support pour servo 9g et antennes).<br>
+• **Détection de collision (1x)** : `frontal_sensor_v3.stl` ou v2 (Selon vos modules, pour HC-SR04 et NeoPixels).<br>
+• **Le tableau électronique (1x)** : `Electronic_plate_v2_uCRP2040.stl` (Pour la carte RP2040 Ucompute V1.3).
 
-:warning: a noter qu'il y a 2 versions, la version V4 offre la possibilité d'utiliser des visses de 25mmx3mm
+# 🔧 Étape 2 : Pré-assemblage des Train de Roulement (Jambes et Côtés)<br>
+1. **Insertion à blanc** : Insérez les Jambes (en rouge sur les photos de référence) dans les Pièces latérales (côtés droit et gauche).<br>
+2. **Fixation** : Les pièces sont conçues pour s'ajuster en "presse-fit" (serrage mécanique).<br>
+3. **Sécurisation (Optionnelle mais recommandée)** : Pour garantir une union éternelle et éviter que les vibrations ne séparent les pièces, appliquez une goutte de colle cyanoacrylate (Super Glue) au niveau de la jointure lors de l'insertion finale.
 
-Rover_Legs_V4
+# 📐 Étape 3 : Assemblage du Châssis Central (Les Tablettes)<br>
+1. **Positionnement des tablettes basses** : Prenez les deux pièces Tablette imprimées. Elles viennent relier le bloc latéral gauche et le bloc latéral droit afin de fermer le châssis en largeur.<br>
+2. **Sécurisation : Fixez-les solidement**. Ces tablettes vont rigidifier l'ensemble du Rover et serviront plus tard de logement pour vos batteries et composants lourds.<br>
+3. **Ajout de la Tablette du haut** : Installez la `plaque Servo_plate_v2`. Intégrez-y le servo-moteur 9g et fixez le support pour les antennes avant de refermer complètement la partie supérieure.
 
-https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/Rover_Legs_V3.stl
+# 📡 Étape 4 : Intégration des Capteurs et de l'Électronique<br>
+1. **Module de détection frontal** : Assemblez le module de détection de collision à l'avant du robot.<br>
+	• Note : Si vous utilisez la version avancée du fichier frontal, fixez le module de 8 Neopixels dans l'emplacement dédié ainsi que le capteur ultrason HC-SR04.<br>
+2. **Plaque électronique** : Installez le tableau électronique (Electronic_plate) conçu pour votre carte RP2040 Ucompute V1.3. Fixez la carte sur son support avant de connecter les câbles des moteurs, du servo et des capteurs frontaux.
 
-# Le tableau électronique
-Cette version est concu pour le RP2040 Ucompute V1.3. une version suivra pour la version avec le RP2350.
+# 🧐 Étape 5 : Vérification Finale<br>
+• **Vérification de l'équerrage** : Posez le Rover sur une surface plane pour vérifier l'alignement des jambes et de l'empattement (comme illustré sur la vue 3D de l'assemblage final).<br>
+• **Serrage** : Si vous avez utilisé la version V4 des jambes, assurez-vous que toutes vos vis de 25 mm x 3 mm sont correctement serrées sans écraser le plastique.
 
-https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/Electronic_plate_v2_uCRP2040.stl
-
-# Tablette
-Les tablettes sont importante d'un point de vue structurelle et serve de support pour les batteries et tout autres composantes.
-vous devrez imprimer deux fois (2X) cette pièce.
-
-https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/Tablette.stl
-
-# Détection de collision.
-Il y a deux versions de cette pièce. l'une permet d'accomoder un module de 8 Neopixels en plus de l'espace pour le HC-SR04
-
-https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/frontal_sensor_v2.stl
-https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/frontal_sensor_v3.stl
-
-# Tablette du haut.
-La tablette du haut permet d'accomoder un servo 9g et le support pour les antennes.
-
-https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/Servo_plate_v2.stl
-
-# L'assemblage Finale
-![vue 3D](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_3D.png)
