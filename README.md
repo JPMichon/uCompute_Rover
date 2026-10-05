@@ -106,6 +106,38 @@ Le système s'appuie sur deux scripts distincts qui gèrent la communication bid
 
 ---
 
+## 🚀 Évolution vers un Rover Autonome et Télémétrie
+
+Bien que le projet soit initialement présenté avec un mode de pilotage radiocommandé (RC), l'architecture matérielle du **uCompute Rover** a été pensée dès le départ pour la modularité. Grâce à ses nombreux capteurs embarqués, le robot peut très facilement être transformé en **véhicule 100 % autonome**.
+
+### 🤖 Logique d'Autonomie Évolutive
+La carte d'interface (*Roverboard*) interconnecte nativement tous les éléments essentiels pour permettre au microcontrôleur RP2040 de prendre des décisions en temps réel :
+* **Évitement d'obstacles :** Le capteur à ultrasons **HC-SR04** (ou le capteur laser ToF **VL53L0X**) permet de cartographier l'environnement direct et d'adapter la trajectoire.
+* **Navigation et orientation :** L'ajout de la boussole magnétique **GY-271** et du module GPS **NEO-6M** ouvre la voie à des algorithmes de navigation par points de passage (*waypoints*).
+
+Le passage au mode autonome ne nécessite aucune modification matérielle majeure : il s'agit principalement d'un **déploiement logiciel** (scripts de contrôle de trajectoire automatique en MicroPython).
+
+### 🌐 Pilotage par Interface Web (Wi-Fi)
+Puisqu'un module **Wi-Fi (ESP-12F)** est disponible dans l'écosystème uCompute (conçu pour s'insérer sur le socket arrière de communication), les possibilités de contrôle à distance s'étendent au réseau IP. 
+
+En déployant un micro-serveur HTTP en MicroPython sur l'uCompute, il devient possible de :
+* **Piloter le rover depuis n'importe quel appareil** (smartphone, tablette ou PC) connecté au même réseau Wi-Fi, sans avoir besoin d'une manette physique.
+* Créer une **interface web moderne et interactive** (boutons tactiles, sliders de vitesse, joystick virtuel en JavaScript) pour contrôler les mouvements du robot en toute simplicité.
+
+  ### 📡 Liaison Longue Portée (LoRa)
+Grâce au bus SPI exposé sur le socket arrière, l'intégration d'un module radio **LoRa** (comme le RFM95W ou équivalent) est également envisageable avec très peu d'efforts. Cette technologie permet d'étendre radicalement le rayon d'action du rover, autorisant la transmission de commandes et de télémétrie sur de très longues distances en extérieur (milieu rural ou urbain dense), là où le Wi-Fi ou les liaisons 2,4 GHz classiques s'essoufflent. 
+
+*Note : Un add-on LoRa standardisé fait partie des pistes de réflexion et pourrait être officiellement disponible dans les prochaines évolutions de la plateforme uCompute.*
+
+### 📊 Télémétrie Bidirectionnelle en Temps Réel
+En mode autonome, les modules radio **NRF24L01+** changent de rôle. Au lieu de simplement recevoir des commandes de pilotage, le lien sans fil sert à renvoyer un flux constant de données (télémétrie) vers une station au sol (PC, console ou le module *uCompute Remote*) :
+* Surveillance en temps réel de la tension et du courant consommé (via le capteur de puissance **INA219**).
+* Transmission des coordonnées géographiques (GPS), du cap (boussole) et des conditions environnementales (température, pression via le **BME280**).
+* Visualisation des données thermiques à distance si le capteur infrarouge **AMG8833** est installé.
+
+*Un ensemble de scripts exemples dédiés à la navigation autonome et au protocole de communication de télémétrie sera progressivement ajouté au dossier `testcode`.*
+
+
 ## 📜 Licence
 
 Le matériel (fichiers de conception, schémas, typons) et les logiciels de ce projet sont mis à disposition selon les termes de la Licence **Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)**.
