@@ -49,11 +49,12 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 
 ## 📡 Étape 4 : Intégration des Capteurs et de l'Électronique<br>
 1. **Module de détection frontal** : Assemblez le module de détection de collision à l'avant du robot.<br>
-2. **Plaque électronique** : Installez le tableau électronique (Electronic_plate) conçu pour votre carte RP2040 Ucompute V1.3. Fixez la carte sur son support avant de connecter les câbles des moteurs, du servo et des capteurs frontaux.
+2. **Plaque électronique** : Installez le tableau électronique (Electronic_plate) conçu pour votre carte RP2040 Ucompute V1.3.<br>
+3. **Fixation**:Fixez la carte sur son support avant de connecter les câbles des moteurs, du servo et des capteurs frontaux. Utiliser 4 vis perçantes (_ou faire des petits trous_) de (8 mm x 3mm) 2 par coté.<br>
+4. **Sécurisation du Ucompute et du Rover module** : Utiliser des vis de (8 mm x 3mm).
 
 ## 🧐 Étape 5 : Vérification Finale<br>
 • **Vérification de l'équerrage** : Posez le Rover sur une surface plane pour vérifier l'alignement des jambes et de l'empattement (comme illustré sur la vue 3D de l'assemblage final).<br>
-• **Serrage** : Si vous avez utilisé la version V4 des jambes, assurez-vous que toutes vos vis de 25 mm x 3 mm sont correctement serrées sans écraser le plastique.
 
 ## 🔒 Étape 6 : Sécurisation de la structure (_Optionnelle mais recommandée_) <br>
 •  Pour garantir une robustesse structurelle et éviter que les vibrations ne séparent les pièces, appliquez une goutte de colle cyanoacrylate (_Crazy Glue_) au niveau des mortaises de liaison entre les pièces.
