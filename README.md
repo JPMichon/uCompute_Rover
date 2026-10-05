@@ -1,5 +1,3 @@
-## 🤖 Module Rover
-
 # 4WD Rover
 *4WD Rover conçu pour utiliser les modules uCompute 1 ou 2 comme fondation.*
 
@@ -37,16 +35,47 @@
 
 ---
 
-## 🤖 Module Rover
+# 🔌 Architecture Électronique & Modularité
 
-Le module Rover se connecte directement à l'interface de la carte principale. Cette dernière intègre le port VIN, qui doit impérativement être alimenté en courant continu (CC) sous une tension de 5 V, avec une source capable de délivrer environ 2 A. 
+Le projet **uCompute Rover** repose sur une architecture matérielle entièrement modulaire. Ce dépôt se concentre spécifiquement sur le châssis, l'assemblage mécanique et la carte d'interface du rover (*Roverboard*). 
 
-À partir de cette ligne 5 V, les éléments suivants sont alimentés en direct :
-* Le servomoteur
-* Le capteur HC-SR04
-* Les deux contrôleurs de moteur DRV8833
+Le "cerveau" et les différents modules de communication requis proviennent de l'écosystème global **RP2040 uCompute**.
 
-Enfin, cette tension alimente également la broche 5 V du module principal, qui fait office de tension continue (CC) pour le circuit de régulation. Le module GPS, quant à lui, est alimenté en 3,3 V depuis le régulateur de la carte principale.
+---
+
+## 🔗 Dépôt Parent & Documentation Électronique
+
+Pour fabriquer, programmer ou comprendre le fonctionnement détaillé de la carte maîtresse et de ses modules, veuillez vous référer au dépôt principal :
+
+👉 **[GitHub - RP2040 uCompute](https://github.com/JPMichon/RP2040_uCompute)**
+
+Vous y trouverez :
+* 📂 Les fichiers de conception matérielle (**Gerber**, schémas de circuits et listes de composants BOM).
+* 📂 Les modules.
+* 📍 La cartographie complète des ports et les spécifications techniques de la plateforme.
+
+---
+
+### 🧠 Le Cœur du Système : uCompute
+L'intelligence embarquée du robot utilise la plateforme de développement autonome **uCompute** (basée sur le microcontrôleur Raspberry Pi RP2040). C'est elle qui gère l'exécution des scripts de pilotage (MicroPython), l'interface graphique de diagnostic et la centralisation des données des capteurs.<br>
+<img width="775" height="350" alt="image" src="https://github.com/user-attachments/assets/4a8f9f4d-8950-45fe-b8cd-cc78aa2371bc" />
+
+---
+
+### 📻 Modules d'Extension (Add-ons)
+Pour assurer la liaison sans fil et la télémétrie bidirectionnelle avec la télécommande, le rover exploite les modules d'extension interchangeables du projet principal (notamment le module radio **NRF24L01+**).
+
+👉 **[RP2040_uCompute Modules](https://github.com/JPMichon/RP2040_uCompute/tree/main/Modules)**
+
+| Emplacement | Module | Description & Fonctionnalités | Rendu Visuel |
+| :--- | :--- | :--- | :--- |
+| **Socket Arrière** (Communication) | **Module Wi-Fi** (ESP-12F) | Carte d'adaptation avec ESP8266 pour une connectivité Wi-Fi. | <img width="100" height="133" alt="image" src="https://github.com/user-attachments/assets/f0c80621-1b07-46e6-844b-4594e3d338f9" />  |
+| **Socket Arrière** (Communication) | **Module Radio** (NRF24L01) | Carte d'adaptateur pour liaisons radio 2,4 GHz. | <img width="112" height="140" alt="image" src="https://github.com/user-attachments/assets/a6a0a83b-80ed-4dbc-bc28-06579f64b54c" /> |
+| **Pins Header** <br> (Connecteur IOs) | **µCompute Remote** <br> (REV 1.0) | Module de commande analogue avec boutons. | <img width="175" height="131" alt="image" src="https://github.com/user-attachments/assets/25dda003-8ab8-48c4-a7d1-1a45fdbca7a4" /> |
+| **Pins Header** <br> (Connecteur IOs) | **µCompute Rover** <br> (REV 1.0) | Contrôleur de moteur DC (2+2) + Servo + HC-SR04 + Module GPS (Neo-6M). | <img width="220" height="145" alt="image" src="https://github.com/user-attachments/assets/90114819-d70b-4cbb-8cfd-5e95b66cca84" /> |
+
+---
+
 
 ## 📻 Module Radio NRF24L01+
 
