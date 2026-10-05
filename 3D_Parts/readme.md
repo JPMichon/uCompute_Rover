@@ -78,8 +78,8 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 ## 🔒 Étape 6 : Sécurisation de la structure (_Optionnelle mais recommandée_) <br>
 •  Pour garantir une robustesse structurelle et éviter que les vibrations ne séparent les pièces, appliquez une goutte de colle cyanoacrylate (_Crazy Glue_) au niveau des mortaises de liaison entre les pièces.
 
-# La suite du montage est dans la section électronique!
-
+## La suite du montage est dans la section électronique!
+**[ Pour vous y rendre ](https://github.com/JPMichon/uCompute_Rover/blob/main/Electronic/README.md)**
 
 
 
