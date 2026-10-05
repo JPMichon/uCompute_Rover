@@ -18,7 +18,7 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 | **HC-SR04 (Trig)** | GP... | Déclenchement de l'ultrason |
 | **HC-SR04 (Echo)** | GP... | Réception de l'écho |
 
-## 📍 Installation des moteurs
+## ⚙️ Installation des moteurs
 
 Chaque moteur est raccordé par un fil electrique a deux conducteur d'environ **30 cm**.
 
