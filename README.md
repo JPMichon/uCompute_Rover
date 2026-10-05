@@ -60,3 +60,19 @@ Le module accepte l'original (MK1), la version mini avec le VCC et GND contigus 
 
 <img width="628" height="795" alt="image" src="https://github.com/user-attachments/assets/03a7755e-c8d2-41c1-83bf-6111f0cfade9" />
 
+---
+
+## 📜 Licence
+
+Le matériel (fichiers de conception, schémas, typons) et les logiciels de ce projet sont mis à disposition selon les termes de la Licence **Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)**.
+
+❌ **L'utilisation commerciale de ce projet (revente de PCBs nus, kits ou cartes retroPico assemblées) est strictement interdite sans autorisation préalable de l'auteur.**
+
+Consultez le fichier [LICENSE](LICENSE) pour lire l'intégralité des termes.
+
+---
+
+## ☕ Soutenir le projet
+
+Si vous appréciez mon travail et souhaitez m'offrir un café pour me soutenir bénévolement dans mes futurs projets de soudure et de code, vous pouvez me laisser un [**pourboire sur Ko-fi** ](https://ko-fi.com/jpmichon) . C'est entièrement volontaire et grandement apprécié !
+
