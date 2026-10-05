@@ -38,21 +38,21 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 >[!NOTE]
 > Une version pour la carte RP2350 Ucompute2 V1.1 est en conception <br>
 
-# 🔧 Étape 2 : Pré-assemblage des Train de Roulement (Jambes et Côtés)<br>
+## 🔧 Étape 2 : Pré-assemblage des Train de Roulement (Jambes et Côtés)<br>
 1. **Insertion à blanc** : Insérez les Jambes (en rouge sur les photos de référence) dans les Pièces latérales (côtés droit et gauche).<br>
 2. **Fixation** : Les pièces sont conçues pour s'ajuster en "presse-fit" (serrage mécanique).<br>
 3. **Sécurisation (Optionnelle mais recommandée)** : Pour garantir une union éternelle et éviter que les vibrations ne séparent les pièces, appliquez une goutte de colle cyanoacrylate (Crazy Glue) au niveau de la jointure lors de l'insertion finale.
 
-# 📐 Étape 3 : Assemblage du Châssis Central (Les Tablettes)<br>
+## 📐 Étape 3 : Assemblage du Châssis Central (Les Tablettes)<br>
 1. **Positionnement des tablettes basses** : Prenez les deux pièces Tablette imprimées. Elles viennent relier le bloc latéral gauche et le bloc latéral droit afin de fermer le châssis en largeur.<br>
 2. **Sécurisation : Fixez-les solidement**. Ces tablettes vont rigidifier l'ensemble du Rover et serviront plus tard de logement pour vos batteries et composants lourds.<br>
 3. **Ajout de la Tablette du haut** : Installez la `plaque Servo_plate_v2`. Intégrez-y le servo-moteur 9g et fixez le support pour les antennes avant de refermer complètement la partie supérieure.
 
-# 📡 Étape 4 : Intégration des Capteurs et de l'Électronique<br>
+## 📡 Étape 4 : Intégration des Capteurs et de l'Électronique<br>
 1. **Module de détection frontal** : Assemblez le module de détection de collision à l'avant du robot.<br>
 2. **Plaque électronique** : Installez le tableau électronique (Electronic_plate) conçu pour votre carte RP2040 Ucompute V1.3. Fixez la carte sur son support avant de connecter les câbles des moteurs, du servo et des capteurs frontaux.
 
-# 🧐 Étape 5 : Vérification Finale<br>
+## 🧐 Étape 5 : Vérification Finale<br>
 • **Vérification de l'équerrage** : Posez le Rover sur une surface plane pour vérifier l'alignement des jambes et de l'empattement (comme illustré sur la vue 3D de l'assemblage final).<br>
 • **Serrage** : Si vous avez utilisé la version V4 des jambes, assurez-vous que toutes vos vis de 25 mm x 3 mm sont correctement serrées sans écraser le plastique.
 
