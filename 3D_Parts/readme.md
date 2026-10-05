@@ -1,5 +1,9 @@
 # Impression du Rover
 
+
+<img width="751" height="715" alt="image" src="https://github.com/user-attachments/assets/4a28565e-bafb-4b29-a7ef-f42afe067af9" />
+
+
 ## Voici un tableau récapitulatif des pièces à imprimer.
 
 | Catégorie | Nom de la pièce | Fichier STL recommandé | Quantité | Taux de remplissage (Infill) suggéré | Notes et spécificités |
