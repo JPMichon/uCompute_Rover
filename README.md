@@ -36,14 +36,11 @@
 Le Rover module est un module ce connectant a l'interface du board principale. Celui est intègre le port VIN devant absolument etre alimenter en CC 5volts avec une source pouvant délivrer environ 2 amp. 
 De ce 5 volts est alimenté directement, le servo, le HC-SR04, les deux modules DRV8833 et finalement, il alimente la broche 5 volts du module principale servant de CC pour le circuit de régulation. 
 Le module GPS est alimenté en 3.3volts a partir du régulateur du module principale. 
-![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Rover_pcb.png)
-![vue 3D du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Rover_module.png)
+
 
 # Remote Module
 Il est possible de piloter le Rover en mode manuelle a l'aide du controleur connecté a un second uCompute.
 Le lien est assuré par un lien bidirectionnel de 2.4Ghz (NRF24l01+) permettant au Rover d'envoyer de la télémetrie au module remote.
-![PCB du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/Remote_PCB.png)
-![Vue_3D du module](https://github.com/JPMichon/uCompute_Rover/blob/main/electronique/remote_3D.png)
 
 # NRF24l01+ Radio Module
 La communication ce fait à l'aide d'un module radio NRF24l01+. il est connecter au uCompute via un adapteur ce connectant à l'arrière du uCompute. (Le connecteur réservé au module W5500)
@@ -51,14 +48,6 @@ Le module radio permet d'utiliser au choix le NRF muni d'un header DIN 2x4 ou la
 Selon certaine source, selon le débit, il est possible d'établir une communication sur plusieurs kilometres, En plus de supporter le maillage.
 https://docs.nordicsemi.com/bundle/nRF24L01P_PS_v1.0/resource/nRF24L01P_PS_v1.0.pdf
 
-<img width="600" height="388" alt="image" src="https://github.com/user-attachments/assets/2d369d93-8f68-4ab3-b6ad-2c9edd94b463" />
-
-:warning: Faite attention au Pinout du NRF24l01+ version MINI, il y a plusieurs models en circulations n'utilisant pas le même pinout.
-
-Le module accepte l'original (MK1), la version mini avec le VCC et GND contigus et la version GT-24 avec le VCC et le GND aux extrémités.
-
-
-<img width="628" height="795" alt="image" src="https://github.com/user-attachments/assets/03a7755e-c8d2-41c1-83bf-6111f0cfade9" />
 
 ---
 
