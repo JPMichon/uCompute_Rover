@@ -1,4 +1,4 @@
-# ⚡ Électronique et Câblage du uCompute Rover
+# ⚡ Câblage du uCompute Rover
 
 Ce répertoire regroupe toutes les informations nécessaires pour assembler, câbler et alimenter les composants électroniques du robot.
 
