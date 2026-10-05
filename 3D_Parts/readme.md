@@ -27,7 +27,7 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 
 ### Pièces structurales et de liaison<br>
 • **Les Cotés (2x)** : 1x `Rover_Side_L_fixed.stl` (Gauche) et 1x `Rover_Side_R_fixed.stl` (Droit).<br>
-• **Les Jambes (2x)** : Imprimer deux fois le fichier sélectionné (Ex: Rover_Legs_V4 pour utiliser des vis de 25 mm x 3 mm).<br>
+• **Les Jambes (2x)** : Imprimer deux fois le fichier <br>
 • **Tablette (2x)** : Imprimer deux fois le fichier `Tablette.stl`. Servent de support structurel et de bac pour les batteries.
 
 ### Pièces structurales transversales<br>
@@ -55,4 +55,11 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 ## 🧐 Étape 5 : Vérification Finale<br>
 • **Vérification de l'équerrage** : Posez le Rover sur une surface plane pour vérifier l'alignement des jambes et de l'empattement (comme illustré sur la vue 3D de l'assemblage final).<br>
 • **Serrage** : Si vous avez utilisé la version V4 des jambes, assurez-vous que toutes vos vis de 25 mm x 3 mm sont correctement serrées sans écraser le plastique.
+
+## 🧐 Étape 6 : fixation des moteurs et des roues<br>
+• **visser les Moteurs TT CC 3-6 V** : aux 4 Jambes avec 2 vis de (25 mm x 3 mm) et 1 vis percante de (5 mm  x 3mm) par jambes.
+   <img width="161" height="86" alt="image" src="https://github.com/user-attachments/assets/4b796235-ff34-42b0-b956-b00d7a48ca09" />
+   <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/b3bb7392-6669-4420-9f55-6e464e4ed142" /><br>
+• **Alonger les fils des moteurs aux besoins** : 
+
 
