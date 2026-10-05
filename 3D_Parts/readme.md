@@ -55,10 +55,10 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 • **Vérification de l'équerrage** : Posez le Rover sur une surface plane pour vérifier l'alignement des jambes et de l'empattement (comme illustré sur la vue 3D de l'assemblage final).<br>
 • **Serrage** : Si vous avez utilisé la version V4 des jambes, assurez-vous que toutes vos vis de 25 mm x 3 mm sont correctement serrées sans écraser le plastique.
 
-## 🧐 Étape 6 : Sécurisation de la structure (_Optionnelle mais recommandée_) <br>
+## 🔒 Étape 6 : Sécurisation de la structure (_Optionnelle mais recommandée_) <br>
 •  Pour garantir une robustesse structurelle et éviter que les vibrations ne séparent les pièces, appliquez une goutte de colle cyanoacrylate (_Crazy Glue_) au niveau des mortaises de liaison entre les pièces.
 
-## 🧐 Étape 7 : fixation des moteurs et des roues<br>
+## 🔧 Étape 7 : fixation des moteurs et des roues<br>
 • **visser les Moteurs TT CC 3-6 V** : aux 4 Jambes avec 2 vis de (25 mm x 3 mm) et 1 vis percante de (5 mm  x 3mm) par jambes.
    <img width="161" height="86" alt="image" src="https://github.com/user-attachments/assets/4b796235-ff34-42b0-b956-b00d7a48ca09" />
    <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/b3bb7392-6669-4420-9f55-6e464e4ed142" /><br>
