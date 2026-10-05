@@ -20,6 +20,14 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 
 ## ⚙️ Installation des moteurs
 
+ **Vous aurez besoins de:**
+• 8 vis de (25 mm x 3 mm),<br>
+• 4 vis perçante de (5 mm  x 3mm),<br>
+• 4 roues tout terrain, <br>       <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/b3bb7392-6669-4420-9f55-6e464e4ed142" /><br>
+• 4 moteurs TT double CC 3-6 V Rapport 200 tr/min Moteur d'arbre 1:48, <br>      <img width="161" height="86" alt="image" src="https://github.com/user-attachments/assets/4b796235-ff34-42b0-b956-b00d7a48ca09" /><br> 
+
+**Alonger les fils des moteurs aux besoins** :  Ma version prototype utilise des connecteurs JST-XH 2.54 2-pin, libre à vous d'utiliser votre propre recette.
+
 Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'environ **30 cm**.
 
 | Insérer le fil dans le petit trou | Insérer chaque fil de chaque côté | Souder les fils aux bornes du moteur | Sécuriser le moteur à l'aide de vis | Sortir l'autre extrémité dans le bas de la plaque électronique |
