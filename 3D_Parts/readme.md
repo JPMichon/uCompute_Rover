@@ -35,7 +35,7 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 • **Détection de collision (1x)** : `frontal_sensor_v3.stl`.<br>
 • **Le tableau électronique (1x)** : `Electronic_plate_v2_uCRP2040.stl` (Pour la carte RP2040 Ucompute V1.3).
 
->!NOTE:
+>[!NOTE]
 > Une version pour la carte RP2350 Ucompute2 V1.1 est en conception <br>
 
 # 🔧 Étape 2 : Pré-assemblage des Train de Roulement (Jambes et Côtés)<br>
