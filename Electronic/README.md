@@ -20,7 +20,7 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 
 ## ⚙️ Installation des moteurs
 
-Chaque moteur est raccordé par un fil électrique à deux conducteurs d'environ **30 cm**.
+Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'environ **30 cm**.
 
 | Insérer le fil dans le trou | Insérer chaque fil de chaque côté | Souder les fils aux bornes du moteur | Sécuriser le moteur à l'aide de vis | Sortir l'autre extrémité dans le bas de la plaque électronique |
 | :---: | :---: | :---: | :---: | :---: |
