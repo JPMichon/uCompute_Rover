@@ -50,7 +50,7 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 ## 📡 Étape 4 : Intégration des Capteurs et de l'Électronique<br>
 1. **Module de détection frontal** : Assemblez le module de détection de collision à l'avant du robot.<br>
 2. **Plaque électronique** : Installez le tableau électronique (Electronic_plate) conçu pour votre carte RP2040 Ucompute V1.3.<br>
-3. **Fixation**:Fixez la carte sur son support avant de connecter les câbles des moteurs, du servo et des capteurs frontaux. Utiliser 4 vis perçantes (_ou faire des petits trous_) de (8 mm x 3mm) 2 par coté.<br>
+3. **Fixation**:Fixez la carte sur son support avant de connecter les câbles des moteurs, du servo et des capteurs frontaux. Utiliser 4 vis perçantes (_ou faire des petits trous_) de (8 mm x 3mm) 2 par côté.<br>
 4. **Sécurisation du Ucompute et du Rover module** : Utiliser des vis de (8 mm x 3mm).
 
 ## 🧐 Étape 5 : Vérification Finale<br>
