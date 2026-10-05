@@ -76,19 +76,32 @@ Pour assurer la liaison sans fil et la télémétrie bidirectionnelle avec la t�
 
 ---
 
+## 🎮 Contrôle à distance (Mode RC)
 
-## 📻 Module Radio NRF24L01+
+Le **uCompute Rover** intègre un mode de pilotage radiocommandé (RC) autonome. La télécommande est construite autour d'un second module uCompute équipé d'un joystick analogique, de boutons poussoirs, d'un écran OLED SSD1306 et d'un module radio NRF24L01+.
 
-La communication sans fil est gérée par un module radio NRF24L01+. Celui-ci est relié à l'uCompute via un adaptateur dédié qui se connecte à l'arrière de la carte (sur le connecteur initialement réservé au module W5500). 
+<p align="center">
+  <img width="495" height="676" alt="image" src="https://github.com/user-attachments/assets/c12b0136-ba45-4c3e-a211-9a4611322f68" />
+</p>
 
-Ce module radio offre une grande flexibilité d'intégration. Selon vos besoins, vous pouvez opter pour :
-* La version équipée d'un connecteur mâle double rangée (*header* DIN 2x4).
-* La version miniature de type CMS (*SMD*).
+### 📐 Conception mécanique et boîtier 3D
+L'ergonomie de la manette a été spécialement étudiée pour offrir une prise en main confortable grâce à des poignées latérales intégrées. 
 
-Il existe également des variantes dotées d'un amplificateur de signal et d'un préamplificateur à faible bruit (**PA+LNA**). Ces dernières permettent de raccorder une antenne externe via un connecteur IPEX, augmentant ainsi considérablement la portée du signal. Selon les sources consultées et le débit de données configuré, il est possible d'établir une liaison stable sur plusieurs kilomètres. De plus, ce matériel prend nativement en charge les architectures de réseau maillé (*mesh*).
+* 📁 Le fichier STL du boîtier est disponible ici : **[RC_remote_v1.stl](https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/RC_remote_v1.stl)**
 
-[Consulter la fiche technique du NRF24L01P (PDF)](https://docs.nordicsemi.com/bundle/nRF24L01P_PS_v1.0/resource/nRF24L01P_PS_v1.0.pdf)
+### 💾 Scripts de test (MicroPython)
+Le système s'appuie sur deux scripts distincts qui gèrent la communication bidirectionnelle en temps réel (envoi des commandes de pilotage et réception de la télémétrie sur l'écran OLED) :
 
+1. **Côté Télécommande :** **[Remote_Rover_v1_SSD1306.py](https://github.com/JPMichon/uCompute_Rover/blob/main/testcode/Remote_Rover_v1_SSD1306.py)**
+   * Initialise le bus SPI pour le module radio NRF24L01+.
+   * Lit l'état du joystick analogique (axes X/Y) et des boutons de commande.
+   * Gère l'affichage des informations système sur l'écran OLED local.
+   * Transmet les paquets de commande vers le robot de manière périodique.
+
+2. **Côté Rover :** **[RC_Rover_v1_SSD1306.py](https://github.com/JPMichon/uCompute_Rover/blob/main/testcode/RC_Rover_v1_SSD1306.py)**
+   * Reste à l'écoute des paquets radio émis par la télécommande.
+   * Décode les consignes de trajectoire et de vitesse pour piloter les moteurs CC via les ponts en H DRV8833.
+   * Gère la sécurité (arrêt d'urgence automatique des moteurs en cas de perte de liaison radio).
 
 ---
 
