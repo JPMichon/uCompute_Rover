@@ -17,7 +17,7 @@ Il n'y a pas de recommandation spécifique sur le type de plastique, mon POC a �
 
 <img width="824" height="688" alt="image" src="https://github.com/user-attachments/assets/f10d11fc-7654-4ade-9636-a0aaced1e533" />
 
-A noter, sur la photo, les **jambes** (En rouge) sont déjà assemblées aux pièces latérales (**côtés**) en blanc. Elles sont simplement insérées en presse-fit. Vous pouvez appliquer une goutte de colle cyanoacrylate afin de sécuriser les pièces.
+A noter sur la photo, les **jambes** (En rouge) sont déjà assemblées aux pièces latérales (**côtés**) en blanc. Elles sont simplement insérées en presse-fit. Vous pouvez appliquer une goutte de colle cyanoacrylate afin de sécuriser les pièces.
 
 ---
 
