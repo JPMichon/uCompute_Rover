@@ -54,10 +54,16 @@ Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants néc
 2. **Sécurisation :** Fixez-les solidement ; ces tablettes vont rigidifier l'ensemble du Rover et serviront plus tard de logement pour vos batteries et composants lourds.
 3. **Ajout de la Tablette du haut :** Installez la plaque `Servo_plate_v2`. Intégrez-y le servomoteur 9g et fixez le support pour les antennes avant de refermer complètement la partie supérieure.
 
-| Tablettes | Tablettes | Tablette haut | Tablette haut |  Vue haut | Support avant | Support electronique |
+| Tablettes | Tablettes | Tablette haut | Tablette haut |  Vue haut | Support avant | Plaque electronique |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | <img width="94" height="124" alt="image" src="https://github.com/user-attachments/assets/14978c74-fd83-4283-9904-132776d71155" /> | <img width="92" height="122" alt="image" src="https://github.com/user-attachments/assets/c6409e4a-77cb-4d2b-a6ee-3aed988a7bbd" /> | <img width="94" height="124" alt="image" src="https://github.com/user-attachments/assets/f8480e1c-d032-4de0-8248-6e1a538836c6" /> |<img width="94" height="124" alt="image" src="https://github.com/user-attachments/assets/e655bf08-c3b3-4ac3-9c0f-88ce32c5b03c" /> |  <img width="94" height="124" alt="image" src="https://github.com/user-attachments/assets/2bf7494d-16c2-489a-8ea8-a37977a90ced" /> | <img width="95" height="124" alt="image" src="https://github.com/user-attachments/assets/e0b9fc12-6d61-4bd9-85e4-0d05c2873b69" /> | <img width="124" height="94" alt="image" src="https://github.com/user-attachments/assets/fc621546-d3f9-459b-aa7c-d6d34f745af3" />
 <br>
+
+### Le uCompute Rover assemblé :
+<br>
+<p align="center">
+<img width="371" height="417" alt="image" src="https://github.com/user-attachments/assets/add39a4e-4057-4132-92d3-497a460eee17" /><img width="371" height="417" alt="image" src="https://github.com/user-attachments/assets/042d32d9-e3fa-45ca-bb6a-84f7ea5539e0" />
+</p>
 
 
 ## 📡 Étape 4 : Intégration des Capteurs et de l'Électronique<br>
