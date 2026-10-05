@@ -15,7 +15,7 @@
 
 <img width="824" height="688" alt="image" src="https://github.com/user-attachments/assets/f10d11fc-7654-4ade-9636-a0aaced1e533" />
 
-A noter que sur la photo, les **jambes** (En rouge) sont déjà assembler aux pièces latérales (**cotés**) en blanc. il sont simplement inséré en presse-fit. vous pouvez mettre une goutte de colle cyanoacrylate afin de vous assurez d'une union éternelle.
+A noter que sur la photo, les **jambes** (En rouge) sont déjà assemblées aux pièces latérales (**côtés**) en blanc. Elles sont simplement insérées en presse-fit. vous pouvez appliquer une goutte de colle cyanoacrylate afin de sécuriser les pièces.
 
 ---
 
@@ -26,7 +26,7 @@ Ce guide détaille les étapes nécessaires pour assembler la structure mécaniq
 Avant de commencer, assurez-vous d'avoir imprimé l'ensemble des composants nécessaires en quantité suffisante :
 
 ### Pièces structurales et de liaison<br>
-• **Les Cotés (2x)** : 1x `Rover_Side_L_fixed.stl` (Gauche) et 1x `Rover_Side_R_fixed.stl` (Droit).<br>
+• **Les côtés (2x)** : 1x `Rover_Side_L_fixed.stl` (Gauche) et 1x `Rover_Side_R_fixed.stl` (Droit).<br>
 • **Les Jambes (2x)** : Imprimer deux fois le fichier <br>
 • **Tablette (2x)** : Imprimer deux fois le fichier `Tablette.stl`. Servent de support structurel et de bac pour les batteries.
 
