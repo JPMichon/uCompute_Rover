@@ -20,9 +20,9 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 
 ## ⚙️ Installation des moteurs
 
-Chaque moteur est raccordé par un fil electrique a deux conducteur d'environ **30 cm**.
+Chaque moteur est raccordé par un fil électrique à deux conducteurs d'environ **30 cm**.
 
-| Inserer le fils dans le trous | Insérer chaque fils de chaque coté | Souder les fils au borne du moteur | Sécurisé le moteur a l'aide de vis |  Sortir l'autre extrémité dans le bas de la plaque electronique |
+| Insérer le fil dans le trou | Insérer chaque fil de chaque côté | Souder les fils aux bornes du moteur | Sécuriser le moteur à l'aide de vis | Sortir l'autre extrémité dans le bas de la plaque électronique |
 | :---: | :---: | :---: | :---: | :---: |
 | <img width="93" height="123" alt="image" src="https://github.com/user-attachments/assets/3da047b3-cd6d-452a-b9b7-f2d928ebe226" /> | <img width="95" height="122" alt="image" src="https://github.com/user-attachments/assets/35381b1d-b1d5-4d95-a2ac-663825c24f85" /> | <img width="93" height="122" alt="image" src="https://github.com/user-attachments/assets/e0115f6c-00bd-4f50-b995-d03e1cee78ea" /> | <img width="92" height="120" alt="image" src="https://github.com/user-attachments/assets/bedd2ab9-a23f-4b60-a01e-06ba27a4e731" /> |   <img width="94" height="122" alt="image" src="https://github.com/user-attachments/assets/f078b472-b96a-4687-ac73-6bcecad818a1" />
 
