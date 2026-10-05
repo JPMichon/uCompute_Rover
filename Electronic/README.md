@@ -3,8 +3,10 @@
 Ce répertoire regroupe toutes les informations nécessaires pour assembler, câbler et alimenter les composants électroniques du robot.
 
 ## 🗺️ Vue schématisée de l'électronique embarquée
+<p align="center">
+<img width="860" height="860" alt="image" src="https://github.com/user-attachments/assets/88a6deb9-74b1-4e49-9caa-6c8eda09083e" />
+</p>
 
-*(Insérez ici l'image de votre schéma global)*
 
 ## 📍 Tableau de connexion des composants
 
