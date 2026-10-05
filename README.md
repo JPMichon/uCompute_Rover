@@ -1,52 +1,64 @@
-# uCompute_Rover
-4WD Rover  conçu pour utiliser les modules uCompute 1 ou 2 comme fondation.
+## 🤖 Module Rover
+
+# 4WD Rover
+*4WD Rover conçu pour utiliser les modules uCompute 1 ou 2 comme fondation.*
 
 ![vue 3D](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_3D.png)
 
-### Materiel requis
-* 4 X DC Gearbox Motor - "TT Motor" - 200RPM - 3 to 6VDC
-* 2 X DRV8833 Dual H-Bridge Motor Control Module 1.5A 3-10V
-* 1 X uCompute RP2040 ver1.3 module (Rover)
-* 1 X uCompute-Rover ver1.0
-* 1 X LM2596 DC-DC Step Down converter de 3 A (ou éqivalent)
-* 6 x AA Battery Case Shell Storage Holder (ou éqivalent)
-  
-### Optionels
-* 1 X SG90 Micro Servo Motor
-* 1 X Ultrasonic sensor HC-SR04 HCSR04 
-* 1 X Diagramme du rover
-* 1 X 10*15mm Snap-in Rocker Switch ON-OFF 
-* 2 X NRF24l01+
-* 2 X NRF24L01+ Radio Module
-* 1 X uCompute RP2040 ver1.3 module (Remote)
-* 1 X uCompute-Remote controller
-* 1 X INA219 I2C Current Voltage Power Sensor 
-* 1 X GY-NEO-6M GPS module, active ceramic antenna,
-* 1 X GY-530 VL53L0X Time-o F-Flight (ToF) Laser Ranging Sensor
-* 1 X GY-271 QMC5883L 3V-5V Three 3 Triple Axis Magnetic Field Compass Magnetometer Sensor
-* 1 X AMG8833 IR 8x8 Thermal Imager Array Temperature Sensor Module
-* 1 X AHT20+BMP280 Temperature Humidity and Air Pressure Module High-precision Digital Sensor IIC I2C
-* 1 X ENS160+AHT21 Carbon Dioxide CO2 eCO2 TVOC Air Quality & Temperature & Humidity Sensor Module
-* Ou autres modules selon vos préférences
+## 🛠️ Matériel requis
+* 4 x Motoréducteurs CC — "TT Motor" — 200 RPM (3 à 6 VCC)
+* 2 x DRV8833 — Contrôleurs de moteur double pont en H (1,5 A, 3 à 10 V)
+* 1 x Module uCompute RP2040 ver 1.3 (Rover)
+* 1 x uCompute-Rover ver 1.0
+* 1 x Convertisseur abaisseur de tension DC-DC LM2596 (3 A ou équivalent)
+* 1 x Boîtier pour 6 piles AA (ou équivalent)
 
-## Vue d'ensemble du Rover
+## ⚙️ Options et extensions
+* 1 x Micro-servomoteur SG90
+* 1 x Capteur à ultrasons HC-SR04 / HCSR04
+* 1 x Schéma de câblage du rover
+* 1 x Interrupteur à bascule encastrable (*Snap-in*) 10x15 mm (ON-OFF)
+* 2 x Modules radio NRF24L01+
+* 1 x Module uCompute RP2040 ver 1.3 (Télécommande)
+* 1 x Contrôleur à distance uCompute (*Remote controller*)
+* 1 x Capteur de puissance et moniteur de tension/courant I2C INA219
+* 1 x Module GPS GY-NEO-6M avec antenne active en céramique
+* 1 x Capteur de distance laser ToF (*Time-of-Flight*) GY-530 VL53L0X
+* 1 x Boussole magnétique à trois axes GY-271 QMC5883L (3V-5V)
+* 1 x Caméra thermique infrarouge AMG8833 (Matrice de capteurs 8x8)
+* 1 x Module haute précision de température, humidité et pression d'air I2C AHT20+BMP280
+* 1 x Module d'analyse de la qualité de l'air (CO2, eCO2, TVOC) ENS160+AHT21
+* *Tout autre module optionnel selon vos préférences.*
+
+---
+
+## ⚡Vue schématisé de l'électronique embarqué
 ![Diagramme du rover](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_Diagram_V1.png)
 
-# Rover Module
-Le Rover module est un module ce connectant a l'interface du board principale. Celui est intègre le port VIN devant absolument etre alimenter en CC 5volts avec une source pouvant délivrer environ 2 amp. 
-De ce 5 volts est alimenté directement, le servo, le HC-SR04, les deux modules DRV8833 et finalement, il alimente la broche 5 volts du module principale servant de CC pour le circuit de régulation. 
-Le module GPS est alimenté en 3.3volts a partir du régulateur du module principale. 
+---
 
+## 🤖 Module Rover
 
-# Remote Module
-Il est possible de piloter le Rover en mode manuelle a l'aide du controleur connecté a un second uCompute.
-Le lien est assuré par un lien bidirectionnel de 2.4Ghz (NRF24l01+) permettant au Rover d'envoyer de la télémetrie au module remote.
+Le module Rover se connecte directement à l'interface de la carte principale. Cette dernière intègre le port VIN, qui doit impérativement être alimenté en courant continu (CC) sous une tension de 5 V, avec une source capable de délivrer environ 2 A. 
 
-# NRF24l01+ Radio Module
-La communication ce fait à l'aide d'un module radio NRF24l01+. il est connecter au uCompute via un adapteur ce connectant à l'arrière du uCompute. (Le connecteur réservé au module W5500)
-Le module radio permet d'utiliser au choix le NRF muni d'un header DIN 2x4 ou la version mini SMD. des versions existe avec amplificateur de signal (PA+LNA) permettant de connecter une antenne externe via un connecteur IPEX permettant ainsi d'augmenter considérablement la portée.
-Selon certaine source, selon le débit, il est possible d'établir une communication sur plusieurs kilometres, En plus de supporter le maillage.
-https://docs.nordicsemi.com/bundle/nRF24L01P_PS_v1.0/resource/nRF24L01P_PS_v1.0.pdf
+À partir de cette ligne 5 V, les éléments suivants sont alimentés en direct :
+* Le servomoteur
+* Le capteur HC-SR04
+* Les deux contrôleurs de moteur DRV8833
+
+Enfin, cette tension alimente également la broche 5 V du module principal, qui fait office de tension continue (CC) pour le circuit de régulation. Le module GPS, quant à lui, est alimenté en 3,3 V depuis le régulateur de la carte principale.
+
+## 📻 Module Radio NRF24L01+
+
+La communication sans fil est gérée par un module radio NRF24L01+. Celui-ci est relié à l'uCompute via un adaptateur dédié qui se connecte à l'arrière de la carte (sur le connecteur initialement réservé au module W5500). 
+
+Ce module radio offre une grande flexibilité d'intégration. Selon vos besoins, vous pouvez opter pour :
+* La version équipée d'un connecteur mâle double rangée (*header* DIN 2x4).
+* La version miniature de type CMS (*SMD*).
+
+Il existe également des variantes dotées d'un amplificateur de signal et d'un préamplificateur à faible bruit (**PA+LNA**). Ces dernières permettent de raccorder une antenne externe via un connecteur IPEX, augmentant ainsi considérablement la portée du signal. Selon les sources consultées et le débit de données configuré, il est possible d'établir une liaison stable sur plusieurs kilomètres. De plus, ce matériel prend nativement en charge les architectures de réseau maillé (*mesh*).
+
+[Consulter la fiche technique du NRF24L01P (PDF)](https://docs.nordicsemi.com/bundle/nRF24L01P_PS_v1.0/resource/nRF24L01P_PS_v1.0.pdf)
 
 
 ---
