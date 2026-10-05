@@ -1,9 +1,10 @@
 # Impression du Rover
-Voici la liste des pièces a imprimer.
 
-A noter que sur la photo, les **jambes** (En rouge) sont déjà assembler aux pièces latérales (**cotés**) en blanc. il sont simplement inséré en presse-fit. vous pouvez mettre une goutte de colle cyanoacrylate afin de vous assurez d'une union éternelle.
+Voici une image des pièces que voua devez imprimer afin de procéder à l'assemblage du Rover.
 
 <img width="824" height="688" alt="image" src="https://github.com/user-attachments/assets/f10d11fc-7654-4ade-9636-a0aaced1e533" />
+
+A noter que sur la photo, les **jambes** (En rouge) sont déjà assembler aux pièces latérales (**cotés**) en blanc. il sont simplement inséré en presse-fit. vous pouvez mettre une goutte de colle cyanoacrylate afin de vous assurez d'une union éternelle.
 
 # Les cotés
 
