@@ -11,6 +11,8 @@
 | **Structure Principale** | **Tablette du Haut** | `Servo_plate_v2.stl` | **1** | **30 %** | Reçoit un **servo-moteur 9g** et sert de support pour les antennes. |
 | **Électronique & Capteurs**| **Tableau Électronique** | `Electronic_plate_v2_uCRP2040.stl` | **1** | **30 %** | Conçu pour la carte **RP2040 Ucompute V1.3**. |
 
+Il n'y a pas de recommandation spécifique sur le type de plastique, mon POC a été imprimé en PLA. Profitez-en pour utiliser vos restants de rouleau, ##soyez créatifs !##
+
 ## Vue des pièces imprimés
 
 <img width="824" height="688" alt="image" src="https://github.com/user-attachments/assets/f10d11fc-7654-4ade-9636-a0aaced1e533" />
