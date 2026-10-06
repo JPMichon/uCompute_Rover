@@ -8,6 +8,7 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 
 </p>
 
+---
 
 <br>
 
