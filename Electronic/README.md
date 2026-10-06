@@ -47,7 +47,7 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 • 2 x Module DRV8833
 • 8 vis perçante de (3 mm  x 5 mm), <br>
 
-### Étapes:
+### Installation:
 | A l'aide de 4 vis | Sécuriser le <br> RP2040 uCompute | A l'aide de 4 vis | Sécuriser le <br> uCompute Rover module | Raccorder les moteurs <br> droite - gauche | Inserer les modules DRV8833 <BR> output vers le bas |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/3ec77fa0-d365-4186-8708-d8237c24c6ca" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/79f8e3ea-e109-46d2-86dd-459fcce02352" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/3ec77fa0-d365-4186-8708-d8237c24c6ca" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/be683505-5f27-4249-aa85-a1ee1a0a3862" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/fc1628c4-654d-496d-a528-4a6979441c69" /> | <img width="195" height="130" alt="image" src="https://github.com/user-attachments/assets/51e70eb6-8db5-4d5a-8402-acc7078e0970" />
@@ -57,12 +57,23 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 • 1 x fil à deux conducteurs de calibre **24 AWG** d'environ **20 cm**.,<br>
 • 1 x un interrupteur à bascule SPST modele: **KCD11 (10X15mm)**,<br>
 
-### Étapes:
+### Installation:
 | Souder le fils sur les bornes de l'interrupteur | Insérer l'interrupteur dans le trou carré du panneau de controle |
 | :---: | :---: |
 |<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/733b0b0f-aa1c-450f-910f-20608ac14508" />|<img width="350" height="340" alt="image" src="https://github.com/user-attachments/assets/3aaee718-4ee8-49d7-90cf-3798e28d6079" />
 
+## ⚙️ Fixation de de l'alimentation
 
+Cette section est low-tech... La façon la plus simple de maintenir en place les différentes composantes, je propose l'utilisation du velcro.
+
+|Coller une bande de velcro <br> sur la tablette du haut| Coller des bandes de velcro <br> sous le porte piles   | Coller une bande de velcro <br> sous le régulateur | Tester l'installation |
+| :---: | :---: | :---: | :---: |
+|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/c107f1a8-6312-4248-9366-c316a7f7d4ba" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/57736bb1-8eb8-4f72-b4a3-aec0f6b3897c" />|<img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/de930fa3-1bfb-46a3-a759-b9004eb18326" />|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/f7e2de8b-040c-4291-987d-cc17d87b8475" />|
+
+
+
+
+### Installation:
 ---
 
 ## 🔋 Schéma de connection de l'alimentation et Puissance
