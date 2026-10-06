@@ -49,7 +49,7 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 • 8 vis perçante de (3 mm  x 5 mm), <br>
 
 ### Installation:
-| A l'aide de 4 vis | Sécuriser le <br> RP2040 uCompute | A l'aide de 4 vis | Sécuriser le <br> uCompute Rover module | Raccorder les moteurs <br> droite - gauche | Inserer les modules DRV8833 <BR> output vers le bas |
+| Préparer 4 vis de montage | Fixer le module <br> RP2040 uCompute | Préparer 4 vis de montage | Fixer le module <br> uCompute Rover | Raccorder les moteurs <br> droite et gauche | Insérer les modules DRV8833 <BR> (broches Output vers le bas)|
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/3ec77fa0-d365-4186-8708-d8237c24c6ca" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/79f8e3ea-e109-46d2-86dd-459fcce02352" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/3ec77fa0-d365-4186-8708-d8237c24c6ca" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/be683505-5f27-4249-aa85-a1ee1a0a3862" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/fc1628c4-654d-496d-a528-4a6979441c69" /> | <img width="195" height="130" alt="image" src="https://github.com/user-attachments/assets/51e70eb6-8db5-4d5a-8402-acc7078e0970" />
 
