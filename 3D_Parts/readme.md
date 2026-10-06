@@ -24,7 +24,7 @@ Il n'y a pas de recommandation spécifique sur le type de plastique, mon POC a �
 A noter sur la photo, les **jambes** (En rouge) sont déjà assemblées aux pièces latérales (**côtés**) en blanc. Elles sont simplement insérées en presse-fit. 
 
 > [!NOTE]
-> Sur l'image, vous voyez la version 2 du support du **HC-SR04** `frontal_sensor_v2.stl`.<br> Je vous suggère d'imprimer la version 3 du support `frontal_sensor_v3.stl`.
+> Sur l'image, la version 2 du support du **HC-SR04** `frontal_sensor_v2.stl` été imprimé.<br> Je vous suggère d'imprimer la version 3 du support `frontal_sensor_v3.stl`.
 
 ---
 
