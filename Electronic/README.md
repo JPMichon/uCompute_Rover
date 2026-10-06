@@ -75,6 +75,8 @@ Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tensio
 > 
 > Brancher le régulateur sans réglage préalable ou avec une tension trop élevée entraînera la **destruction immédiate** du microcontrôleur RP2040, de l'écran LCD et de l'ensemble de vos capteurs.
 
+### Ajustement du regulateur
+
 **À l’aide d’un multimètre et d’un petit tournevis plat, ajustez la tension en tournant la vis du potentiomètre (indiquée sur la photo ci-dessous).**
 > 🔄 **Sens de réglage du potentiomètre :**
 > * **Pour DIMINUER la tension :** Tournez la vis dans le **sens inverse des aiguilles d'une montre** (antihoraire).
