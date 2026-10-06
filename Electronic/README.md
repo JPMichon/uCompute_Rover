@@ -32,9 +32,10 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 
 Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'environ **30 cm**.
 
-| Insérer le fil dans le trou du haut | Insérer chaque fil de chaque côté | Souder les fils aux bornes du moteur | Sécuriser le moteur à l'aide de vis | Sortir l'autre extrémité dans le bas de la plaque électronique |
-| :---: | :---: | :---: | :---: | :---: |
-| <img width="150" height="195"  alt="image" src="https://github.com/user-attachments/assets/3da047b3-cd6d-452a-b9b7-f2d928ebe226" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/35381b1d-b1d5-4d95-a2ac-663825c24f85" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/e0115f6c-00bd-4f50-b995-d03e1cee78ea" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/bedd2ab9-a23f-4b60-a01e-06ba27a4e731" /> |   <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/f078b472-b96a-4687-ac73-6bcecad818a1" />
+| Insérer le fil dans le trou du haut | Insérer chaque fil de chaque côté | Souder les fils aux bornes du moteur | Sécuriser le moteur à l'aide de vis | Sortir l'autre extrémité dans le bas de la plaque électronique | ajouter un collant sur les axes des 4 moteurs |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| <img width="150" height="195"  alt="image" src="https://github.com/user-attachments/assets/3da047b3-cd6d-452a-b9b7-f2d928ebe226" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/35381b1d-b1d5-4d95-a2ac-663825c24f85" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/e0115f6c-00bd-4f50-b995-d03e1cee78ea" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/bedd2ab9-a23f-4b60-a01e-06ba27a4e731" /> |   <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/f078b472-b96a-4687-ac73-6bcecad818a1" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/9e90e19c-61b7-4f4f-9f23-453a9aff9fd4" />
+
 
 >[!NOTE]
 > Afin de **vous faire gagner du temps**, assurez-vous de toujours souder la borne positive et la borne négative dans le même ordre, car le module de puissance inverse la polarité du second moteur d’un même **côté**. **Cela signifie que si les moteurs reculent** au lieu d’avancer, **il faut** inverser les connecteurs entre les deux moteurs. <br>
