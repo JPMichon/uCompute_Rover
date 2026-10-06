@@ -58,7 +58,7 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 ## ⚙️ Installation de l'interrupteur d'alimentation
 ### **Vous aurez besoins de:** <br>
 • 1 x fil à deux conducteurs de calibre **24 AWG** d'environ **20 cm**.,<br>
-• 1 x un interrupteur à bascule **KCD11 (10X15mm)**,<br>
+• 1 x un interrupteur à bascule SPST modele: **KCD11 (10X15mm)**,<br>
 
 | Souder le fils sur les bornes de l'interrupteur | Insérer l'interrupteur dans le trou carré du panneau de controle |
 | :---: | :---: |
