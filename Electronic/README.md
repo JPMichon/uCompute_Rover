@@ -48,6 +48,7 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 ### **Vous aurez besoins de:** <br>
 • 1 x module RP2040 uCompute,<br>
 • 1 x uCompute Rover module,<br>
+• 2 x Module DRV8833
 • 8 vis perçante de (3 mm  x 5 mm), <br>
 
 | A l'aide de 4 vis | Sécuriser le <br> RP2040 uCompute | A l'aide de 4 vis | Sécuriser le <br> uCompute Rover module | Raccorder les moteurs <br> droite - gauche | Inserer les modules DRV8833 <BR> output vers le bas |
