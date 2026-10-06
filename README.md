@@ -1,6 +1,6 @@
 # 🤖 uCompute Rover
 
-*4WD Rover conçu pour utiliser les modules uCompute 1 ou 2 comme fondation.*
+*uCompute Rover conçu pour utiliser les modules uCompute 1 ou 2 comme fondation.*
 
 ![vue 3D](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_3D.png)
 
