@@ -4,7 +4,8 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 
 ## 🗺️ Vue schématisée de l'électronique embarquée
 <p align="center">
-<img width="860" height="860" alt="image" src="https://github.com/user-attachments/assets/88a6deb9-74b1-4e49-9caa-6c8eda09083e" />
+<img width="700" height="720" alt="image" src="https://github.com/user-attachments/assets/95619a81-7fdf-4ab7-bc80-40e4ef133049" />
+
 </p>
 
 
