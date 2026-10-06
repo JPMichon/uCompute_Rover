@@ -16,14 +16,15 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 
 ## ⚙️ Installation des moteurs
 
-### **Vous aurez besoins de:** <br>
+### **Vous aurez besoin de:** <br>
 • 8 vis de (25 mm x 3 mm), <br>
 • 4 vis perçante de (3 mm  x 5 mm), <br>
-• 4 roues tout terrain, <br> 
-• 4 moteurs TT double CC 3-6 V Rapport 200 tr/min Moteur d'arbre 1:48, <br>      
+• 4 roues tout-terrain, <br> 
+• 4 moteurs TT double CC 3-6 V Rapport 200 tr/min, réduction 1:48, <br>      
 <img width="161" height="86" alt="image" src="https://github.com/user-attachments/assets/4b796235-ff34-42b0-b956-b00d7a48ca09" /> <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/b3bb7392-6669-4420-9f55-6e464e4ed142" /><br>
 
-**Alonger les fils des moteurs aux besoins** :  Ma version prototype utilise des connecteurs JST-XH 2.54 2-pin, libre à vous d'utiliser votre propre recette.
+**Alonger les fils des moteurs aux besoins** :  Ma version prototype utilise des connecteurs **JST-XH 2.54 2-pin**<br> 
+Libre à vous d'utiliser votre propre recette.
 
 Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'environ **30 cm**.
 
@@ -41,7 +42,7 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 
 ## ⚙️ Installation des modules de controle
 
-### **Vous aurez besoins de:** <br>
+### **Vous aurez besoin de:** <br>
 • 1 x module RP2040 uCompute,<br>
 • 1 x uCompute Rover module,<br>
 • 2 x Module DRV8833
@@ -53,7 +54,7 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 |<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/3ec77fa0-d365-4186-8708-d8237c24c6ca" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/79f8e3ea-e109-46d2-86dd-459fcce02352" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/3ec77fa0-d365-4186-8708-d8237c24c6ca" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/be683505-5f27-4249-aa85-a1ee1a0a3862" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/fc1628c4-654d-496d-a528-4a6979441c69" /> | <img width="195" height="130" alt="image" src="https://github.com/user-attachments/assets/51e70eb6-8db5-4d5a-8402-acc7078e0970" />
 
 ## ⚙️ Installation de l'interrupteur d'alimentation
-### **Vous aurez besoins de:** <br>
+### **Vous aurez besoin de:** <br>
 • 1 x fil à deux conducteurs de calibre **24 AWG** d'environ **20 cm**.,<br>
 • 1 x un interrupteur à bascule SPST modele: **KCD11 (10X15mm)**,<br>
 
