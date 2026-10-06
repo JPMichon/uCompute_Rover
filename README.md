@@ -86,7 +86,7 @@ Pour assurer la liaison sans fil et la télémétrie bidirectionnelle avec la t�
 
 ## 🎮 Contrôle à distance (Mode RC)
 
-Le **uCompute Rover** intègre un mode de pilotage radiocommandé (RC) autonome. La télécommande est construite autour d'un second module uCompute équipé d'un joystick analogique, de boutons poussoirs, d'un écran OLED SSD1306 et d'un module radio NRF24L01+.
+Le **uCompute Rover** intègre un mode de pilotage radiocommandé (RC) autonome. La télécommande est construite autour d'un second module uCompute équipé d'un joystick analogique, de boutons-poussoirs, d'un écran OLED **SSD1306** et d'un module radio **NRF24L01+**.
 
 <p align="center">
   <img width="495" height="676" alt="image" src="https://github.com/user-attachments/assets/c12b0136-ba45-4c3e-a211-9a4611322f68" />
