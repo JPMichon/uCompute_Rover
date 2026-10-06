@@ -46,7 +46,7 @@ Le "cerveau" et les différents modules de communication requis proviennent de l
 ---
 ### 💡 Une architecture ouverte et universelle
 
-Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), le module de contrôle des moteurs a été développé dans un pur esprit de liberté logicielle et matérielle. L'ensemble de la structure est entièrement agnostique : le circuit de puissance et les drivers de moteurs utilisent des signaux logiques standards. Cela signifie qu'un *maker* peut tout à fait adapter ce châssis et ce module d'extension pour les piloter avec un **ESP32**, un **Arduino** ou toute autre plateforme de développement de son choix, en adaptant simplement le câblage et le script de pilotage.
+Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), le module de contrôle des moteurs a été développé dans un pur esprit de liberté logicielle et matérielle. L'ensemble de la structure est entièrement agnostique : le circuit de puissance et les drivers de moteurs utilisent des signaux logiques standards. Cela signifie qu'un **maker** peut tout à fait adapter ce châssis et ce module d'extension pour les piloter avec un **ESP32**, un **Arduino** ou toute autre plateforme de développement de son choix, en bricolant son propre module de contrôle ou en adaptant simplement le câblage et le script de pilotage.
 
 ---
 
