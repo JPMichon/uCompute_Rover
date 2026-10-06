@@ -67,6 +67,7 @@ Cette section est simple, mais efficace…<BR>
 Pour maintenir en place les différents composants, la façon la plus simple reste l’utilisation de bandes Velcro.<br>
 _Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 
+### Étapes:
 | Coller une bande de Velco <br> sur la tablette du haut | Coller des bandes de Velco <br> sous le porte-piles   | Coller une bande de Velco <br> sous le régulateur | Tester l'installation |
 | :---: | :---: | :---: | :---: |
 |<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/c107f1a8-6312-4248-9366-c316a7f7d4ba" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/57736bb1-8eb8-4f72-b4a3-aec0f6b3897c" />|<img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/de930fa3-1bfb-46a3-a759-b9004eb18326" />|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/f7e2de8b-040c-4291-987d-cc17d87b8475" />|
