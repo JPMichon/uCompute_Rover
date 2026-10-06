@@ -23,7 +23,7 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 
 ### **Vous aurez besoins de:** <br>
 • 8 vis de (25 mm x 3 mm), <br>
-• 4 vis perçante de (5 mm  x 3mm), <br>
+• 4 vis perçante de (3 mm  x 5 mm), <br>
 • 4 roues tout terrain, <br> 
 • 4 moteurs TT double CC 3-6 V Rapport 200 tr/min Moteur d'arbre 1:48, <br>      
 <img width="161" height="86" alt="image" src="https://github.com/user-attachments/assets/4b796235-ff34-42b0-b956-b00d7a48ca09" /> <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/b3bb7392-6669-4420-9f55-6e464e4ed142" /><br>
@@ -41,6 +41,30 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 > Afin de **vous faire gagner du temps**, assurez-vous de toujours souder la borne positive et la borne négative dans le même ordre, car le module de puissance inverse la polarité du second moteur d’un même **côté**. **Cela signifie que si les moteurs reculent** au lieu d’avancer, **il faut** inverser les connecteurs entre les deux moteurs. <br>
 ><img width="493" height="365" alt="image" src="https://github.com/user-attachments/assets/a11a52eb-1617-4ab3-91f5-c9088e2ee0c3" /> <br>
 > Autre élément : les **moteurs droit et gauche fonctionnent** par **paire**. **C'est-à-dire** que les **deux** moteurs d’un même côté sont câblés pour être synchrones. Cela permet de diminuer **le nombre d'E/S (IOs)** requis pour piloter les moteurs. L’autre avantage est de faciliter l’utilisation de **chenilles** sans devoir mettre en place des garde-fous logiciels, tout en permettant plus de fonctionnalités sur le Rover Board. Cependant, **tout avantage ayant ses inconvénients**, cette configuration **ne permet pas** l’utilisation de **roues Mecanum**. Comme le **uCompute Rover est modulaire** et les schémas sont disponibles, **il est relativement simple de bricoler votre propre module** de contrôle des moteurs. Il est impossible, que dans un avenir plus ou moins rapproché, j'ajoute un module spécifique pour piloter des **roues Mecanum**.
+
+## ⚙️ Installation des modules de controle
+
+### **Vous aurez besoins de:** <br>
+• 1 x module RP2040 uCompute,<br>
+• 1 x uCompute Rover module,<br>
+• 8 vis perçante de (3 mm  x 5 mm), <br>
+
+| A l'aide de 4 vis | Sécuriser le <br> RP2040 uCompute | A l'aide de 4 vis | Sécuriser le <br> uCompute Rover module | Raccorder les moteurs <br> droite - gauche |
+| :---: | :---: | :---: | :---: | :---: |
+|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/3ec77fa0-d365-4186-8708-d8237c24c6ca" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/79f8e3ea-e109-46d2-86dd-459fcce02352" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/3ec77fa0-d365-4186-8708-d8237c24c6ca" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/be683505-5f27-4249-aa85-a1ee1a0a3862" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/fc1628c4-654d-496d-a528-4a6979441c69" />
+
+## ⚙️ Installation de l'interrupteur d'alimentation
+### **Vous aurez besoins de:** <br>
+• 1 x fil à deux conducteurs de calibre 24 AWG d'environ 20 cm.,<br>
+• 1 x un interrupteur à bascule KCD11 10X15mm,<br>
+
+Souder le fils sur les bornes de l'interrupteur <br>
+<img width="1064" height="296" alt="image" src="https://github.com/user-attachments/assets/733b0b0f-aa1c-450f-910f-20608ac14508" />
+<br>
+Insérer l'interrupteur dans le trou carré du panneau de controle.<br>
+<img width="1063" height="950" alt="image" src="https://github.com/user-attachments/assets/3aaee718-4ee8-49d7-90cf-3798e28d6079" />
+
+
 
 ## 🔋 Alimentation et Puissance
 Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tension est abaissée à **5V (2A min)** via le module LM2596 pour alimenter la carte principale, les moteurs et le servomoteur.
