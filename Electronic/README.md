@@ -60,11 +60,9 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 • 1 x fil à deux conducteurs de calibre 24 AWG d'environ 20 cm.,<br>
 • 1 x un interrupteur à bascule KCD11 10X15mm,<br>
 
-Souder le fils sur les bornes de l'interrupteur <br>
-<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/733b0b0f-aa1c-450f-910f-20608ac14508" />
-<br>
-Insérer l'interrupteur dans le trou carré du panneau de controle.<br>
-<img width="530" height="475" alt="image" src="https://github.com/user-attachments/assets/3aaee718-4ee8-49d7-90cf-3798e28d6079" />
+| Souder le fils sur les bornes de l'interrupteur | Insérer l'interrupteur dans le trou carré du panneau de controle |
+| :---: | :---: |
+|<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/733b0b0f-aa1c-450f-910f-20608ac14508" />|<img width="350" height="340" alt="image" src="https://github.com/user-attachments/assets/3aaee718-4ee8-49d7-90cf-3798e28d6079" />
 
 
 
