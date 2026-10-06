@@ -63,7 +63,7 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 |<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/733b0b0f-aa1c-450f-910f-20608ac14508" />|<img width="350" height="340" alt="image" src="https://github.com/user-attachments/assets/3aaee718-4ee8-49d7-90cf-3798e28d6079" />
 
 ## :scissors: Fixation de l'alimentation
-Cette section est simple, mais efficace…
+Cette section est simple, mais efficace…<BR>
 Pour maintenir en place les différents composants, la façon la plus simple reste l’utilisation de bandes Velcro.<br>
 _Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 
