@@ -17,7 +17,7 @@
 * 1 x Capteur à ultrasons HC-SR04 / HCSR04
 * 1 x Schéma de câblage du rover
 * 1 x Interrupteur à bascule encastrable (*Snap-in*) 10x15 mm (ON-OFF)
-* 2 x Modules radio NRF24L01+
+* 2 x Modules radio nRF24L01+
 * 1 x Module uCompute RP2040 ver 1.3 (Télécommande)
 * 1 x Contrôleur à distance uCompute (*Remote controller*)
 * 1 x Capteur de puissance et moniteur de tension/courant I2C INA219
