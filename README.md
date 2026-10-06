@@ -32,7 +32,8 @@
 ---
 
 ## ⚡Vue schématisé de l'électronique embarqué
-![Diagramme du rover](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_Diagram_V1.png)
+<img width="353" height="380" alt="image" src="https://github.com/user-attachments/assets/00ff8261-1ec5-4b57-87cb-6808611c9471" />
+
 
 ---
 
