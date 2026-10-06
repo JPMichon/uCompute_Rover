@@ -62,13 +62,12 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 | :---: | :---: |
 |<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/733b0b0f-aa1c-450f-910f-20608ac14508" />|<img width="350" height="340" alt="image" src="https://github.com/user-attachments/assets/3aaee718-4ee8-49d7-90cf-3798e28d6079" />
 
-## ⚙️ Fixation de de l'alimentation
+## :scissors: Fixation de l'alimentation
+Cette section est simple, mais efficace…
+Pour maintenir en place les différents composants, la façon la plus simple reste l’utilisation de bandes Velcro.<br>
+_Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 
-Cette section est low-tech... <br>
-La façon la plus simple de maintenir en place les différentes composantes, je propose l'utilisation du velcro.<br>
-_Si c'est bon pour la "NASA" c'est bon pour le Rover_
-
-|Coller une bande de velcro <br> sur la tablette du haut| Coller des bandes de velcro <br> sous le porte piles   | Coller une bande de velcro <br> sous le régulateur | Tester l'installation |
+| Coller une bande de Velco <br> sur la tablette du haut | Coller des bandes de Velco <br> sous le porte-piles   | Coller une bande de Velco <br> sous le régulateur | Tester l'installation |
 | :---: | :---: | :---: | :---: |
 |<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/c107f1a8-6312-4248-9366-c316a7f7d4ba" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/57736bb1-8eb8-4f72-b4a3-aec0f6b3897c" />|<img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/de930fa3-1bfb-46a3-a759-b9004eb18326" />|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/f7e2de8b-040c-4291-987d-cc17d87b8475" />|
 
