@@ -78,7 +78,7 @@ _Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 ### Installation:
 ---
 
-## 🔋 Schéma de connection de l'alimentation et Puissance
+## 🔋 Schéma de connection de l'alimentation
 Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tension est abaissée à **5 V (2 A min)** via le module LM2596 pour alimenter la carte principale, les moteurs et le servomoteur.
 
 <p align="center">
