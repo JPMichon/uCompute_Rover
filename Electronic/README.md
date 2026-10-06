@@ -9,16 +9,7 @@ Ce répertoire regroupe toutes les informations nécessaires pour assembler, câ
 </p>
 
 
-## 📍 Tableau de connexion des composants
-
-| Composant | Broche Roverboard / uCompute | Rôle / Fonction |
-| :--- | :---: | :--- |
-| **Moteurs Gauches** | OUT1 / OUT2 (DRV8833 A) | Propulsion côté gauche |
-| **Moteurs Droits** | OUT3 / OUT4 (DRV8833 B) | Propulsion côté droit |
-| **Servomoteur** | GP23 (PWM) | Orientation du capteur avant |
-| **HC-SR04 (Trig)** | GP... | Déclenchement de l'ultrason |
-| **HC-SR04 (Echo)** | GP... | Réception de l'écho |
-
+<br>
 ## ⚙️ Installation des moteurs
 
 ### **Vous aurez besoins de:** <br>
