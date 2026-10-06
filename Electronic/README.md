@@ -64,7 +64,9 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 
 ## ⚙️ Fixation de de l'alimentation
 
-Cette section est low-tech... La façon la plus simple de maintenir en place les différentes composantes, je propose l'utilisation du velcro.
+Cette section est low-tech... <br>
+La façon la plus simple de maintenir en place les différentes composantes, je propose l'utilisation du velcro.<br>
+_Si c'est bon pour la "NASA" c'est bon pour le Rover_
 
 |Coller une bande de velcro <br> sur la tablette du haut| Coller des bandes de velcro <br> sous le porte piles   | Coller une bande de velcro <br> sous le régulateur | Tester l'installation |
 | :---: | :---: | :---: | :---: |
