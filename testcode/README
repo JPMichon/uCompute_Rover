@@ -1,0 +1,16 @@
+# Les exemples de code
+
+## 💻 Logique logicielle : Le Mode RC
+
+Le pilotage à distance repose sur un duo de scripts MicroPython hautement optimisés, répartis entre la télécommande (**Émetteur**) et le rover (**Récepteur**). Ils exploitent le protocole de communication radio 2,4 GHz via les modules **nRF24L01+**.
+
+### 🎮 1. La Télécommande (L'Émetteur)
+Le script de la télécommande échantillonne en continu les coordonnées analogiques (X, Y) du joystick via le convertisseur analogique-numérique (ADC) du RP2040.
+* **Mixage vectoriel :** Le code intègre un algorithme de mixage mathématique. L'axe Y gère la marche avant/arrière et l'axe X gère le pivot. Le programme fusionne ces deux vecteurs pour calculer instantanément la puissance requise pour le moteur gauche et le moteur droit.
+* **Zone neutre (*Deadzone*) :** Une zone morte de 4 % est logiciellement configurée au centre du joystick. Cela évite que les moteurs ne sillonnent ou ne grincent lorsque la télécommande est au repos.
+* **Paquet compact :** Pour maximiser la portée et la réactivité, les puissances (comprises entre -100 et +100) sont compactées dans un paquet binaire ultra-léger de deux entiers signés de 16 bits (`struct.pack("hh", p_gauche, p_droite)`) avant l'envoi radio.
+
+### 🤖 2. Le Rover (Le Récepteur)
+Afin de garantir une sécurité maximale et d'éviter les pertes de contrôle, le rover sépare ses tâches logiques grâce aux deux cœurs du RP2040 :
+* **Thread de communication dédié (`_thread`) :** Un second processus indépendant tourne en boucle fermée pour écouter la radio. Dès qu'un paquet arrive, il le décompresse (`struct.unpack`) et applique immédiatement la modulation de largeur d'impulsion (PWM) aux contrôleurs de moteurs DRV8833.
+* **Boucle principale (Télémétrie) :** Le cœur principal gère l'affichage en temps réel sur l'écran OLED. Il interroge en permanence le capteur **INA219** pour afficher la tension de la batterie et la consommation électrique globale en milliampères (mA), faisant office de tableau de bord de diagnostic.
