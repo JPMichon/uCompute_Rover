@@ -62,6 +62,9 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 | :---: | :---: |
 |<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/733b0b0f-aa1c-450f-910f-20608ac14508" />|<img width="350" height="340" alt="image" src="https://github.com/user-attachments/assets/3aaee718-4ee8-49d7-90cf-3798e28d6079" />
 
+
+---
+
 ## 🔋 Schéma de connection de l'alimentation et Puissance
 Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tension est abaissée à **5 V (2 A min)** via le module LM2596 pour alimenter la carte principale, les moteurs et le servomoteur.
 
