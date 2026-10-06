@@ -67,7 +67,28 @@ Chaque moteur est raccordé par un fil à deux conducteurs de calibre 26 AWG d'e
 | :---: | :---: |
 |<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/733b0b0f-aa1c-450f-910f-20608ac14508" />|<img width="350" height="340" alt="image" src="https://github.com/user-attachments/assets/3aaee718-4ee8-49d7-90cf-3798e28d6079" />
 
+## 🔋 Schéma de connection de l'alimentation et Puissance
+Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tension est abaissée à **5 V (2 A min)** via le module LM2596 pour alimenter la carte principale, les moteurs et le servomoteur.
+
+<p align="center">
+<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/0465d19e-39bf-4fe8-96a4-ff1c747c2283" />
+</p>
+
+> [!WARNING]
+> ### ⚡ ATTENTION : Réglage impératif du régulateur LM2596
+> Le module du Rover requiert une tension d'alimentation stricte de **5 V**. Le convertisseur DC-DC LM2596 étant un régulateur **ajustable**, il est **crucial d'ajuster sa tension de sortie à 5 V à l'aide d'un multimètre AVANT de le connecter** aux cartes électroniques du Rover. 
+> 
+> Brancher le régulateur sans réglage préalable ou avec une tension trop élevée entraînera la **destruction immédiate** du microcontrôleur RP2040, de l'écran LCD et de l'ensemble de vos capteurs.
+
+**À l’aide d’un multimètre et d’un petit tournevis plat, ajustez la tension en tournant la vis du potentiomètre (indiquée sur la photo ci-dessous).**
+> 🔄 **Sens de réglage du potentiomètre :**
+> * **Pour DIMINUER la tension :** Tournez la vis dans le **sens inverse des aiguilles d'une montre** (antihoraire).
+> * **Pour AUGMENTER la tension :** Tournez la vis dans le **sens des aiguilles d'une montre** (horaire).
+> 
+> *Note : Ces potentiomètres multitours possèdent souvent une large plage de réglage initiale. Il est tout à fait normal de devoir effectuer plusieurs tours complets (parfois plus de 10 à 15 tours) avant de voir la tension commencer à varier sur votre multimètre. Procédez par petits gestes une fois proche des 5 V.*
+
+<p align="center">
+<img width="569" height="371" alt="image" src="https://github.com/user-attachments/assets/10494b81-9cd7-41e0-a7ae-1cd8d28e3c3e" />
+</p>
 
 
-## 🔋 Alimentation et Puissance
-Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tension est abaissée à **5V (2A min)** via le module LM2596 pour alimenter la carte principale, les moteurs et le servomoteur.
