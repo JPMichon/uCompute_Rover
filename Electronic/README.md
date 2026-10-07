@@ -166,9 +166,9 @@ Les moteurs ont déjà été connecté précédemment. Si il ne le sont pas, vou
 | :---: | :---: | :---: | :---: |
 |<img width="260" height="260" alt="image" src="https://github.com/user-attachments/assets/d5e51127-a20c-459e-b88b-437bd7cad6f1" /> | <img width="210" height="265" alt="image" src="https://github.com/user-attachments/assets/8a936ef8-850f-44cf-b5c1-ff70a51956a8" /> |<img width="220" height="270" alt="image" src="https://github.com/user-attachments/assets/c901930c-2662-46a1-947c-ffec8f33ab00" /> |<img width="220" height="270" alt="image" src="https://github.com/user-attachments/assets/addd0c1f-4bb3-4e6b-9fe0-355f3d8e9717" />|
 
-## Gestion du cablage
-Cette partie est facultative, mais néanmoins importante si vous désirer avoir un projet fiable dans le temps.
-Les pieces horizontales on été conçues avec des encoches pour facilité la gestion du câblage en permettant l'utilisation de serre-câble (Tie-Wrap) afin de retenir solidement les cables. Libre à vous de les utiliser à bon escient.<br>
+
+## Gestion du câblage:
+Cette partie est facultative, mais néanmoins importante si vous **désirez** avoir un projet fiable dans le temps. Les pièces horizontales ont été conçues avec des encoches pour faciliter la gestion du câblage en permettant l'utilisation de **serre-câbles [10 cm] (Tie-Wraps)** afin de retenir solidement les **câbles**. Libre à vous de les utiliser à bon escient.
 
 <img width="338" height="428" alt="image" src="https://github.com/user-attachments/assets/6c4ad347-de4c-4709-ba90-b360f6cfbd97" />
 
