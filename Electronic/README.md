@@ -169,9 +169,17 @@ Les moteurs ont déjà été connecté précédemment. Si il ne le sont pas, vou
 ## Plus d'un capteur I2C, pas de problème
 Il y a de forte chance pour que vous désiriez avoir plus d'un capteur I2C. La solution est assez simple et ce résout par un simple bricollage.
 
+### Détail du bricollage
 | Vu du dessus | Détail des soudures | 
 | :---: | :---: |
 |<img width="490" height="482" alt="image" src="https://github.com/user-attachments/assets/60e30bce-4825-49b2-8960-8a73b0164005" /> | <img width="476" height="485" alt="image" src="https://github.com/user-attachments/assets/09589e99-1ec8-4e45-9f84-ce6641fc09cc" /> |
+
+> [!NOTE]
+>Le bus I2C a besoin de deux résistances de pull-up (une sur SDA, une sur SCL) reliées au VCC pour fonctionner.<br>
+>• La plupart des modules de capteurs prêts à l'emploi (shields/breakouts) intègrent déjà ces résistances.<br>
+>• En mettre trop en parallèle fait chuter la résistance totale (loi des mailles). Si vous connectez plus de 3 ou 4 capteurs, le signal peut se dégrader.<br>
+> Si vous rencontrez des erreurs de communication, il faudra retirer (dessouder) les résistances de tirage de certains modules pour n'en garder qu'une seule paire sur tout le bus. <br>
+
 
 
 
