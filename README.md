@@ -82,7 +82,7 @@ Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), l
 
 ---
 
-### 📻 Modules d'Extension (Add-ons)
+### 📻 Modules d'extension (Add-ons)
 Pour assurer la liaison sans fil et la télémétrie bidirectionnelle avec la télécommande, le rover exploite les modules d'extension interchangeables du projet principal (notamment le module radio **NRF24L01+**).
 
 👉 **[RP2040_uCompute Modules](https://github.com/JPMichon/RP2040_uCompute/tree/main/Modules)**
