@@ -104,19 +104,15 @@ Vivement l'artisanat! <br>
 > [!NOTE]
 > La colle chaude a un point de fusion au alentour de 190 °C. très près des températures d'impression des pièces en 3D. **Allez y parcimonieusement** avec la colle chaude pour évitez de déformer vos pièces.
 
-
-
-
-
-
-
-## 🔋 Schéma de l'alimentation électrique
-
-Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tension est abaissée à **5 V (2 A min)** via le module LM2596 pour alimenter la carte principale, les moteurs et le servomoteur.
-
-<p align="center">
-<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/0465d19e-39bf-4fe8-96a4-ff1c747c2283" />
-</p>
+## ⚙️ Préparation du LM2596
+### **Vous aurez besoin de:** <br>
+• 1 x fil à deux conducteurs de calibre **24 AWG** d'environ **10 cm**.,<br>
+• 1 x fil à deux conducteurs de calibre **24 AWG** d'environ **15 cm**  avec un connecteur **JST XH2.54 2P** à l'un des bout,<br>
+• 1 x un module **convertisseur DC-DC LM2596**,<br>
+### Étapes:
+| Souder les fils<br>  + rouge, - Noir | Gros plan sur le  <br>connecteur JST XH2.54 2P | 
+| :---: | :---: |
+|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/db85b3f0-d31a-4ef3-8d37-3c7a2af4c18b" />|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/1485ad30-8d50-4e6b-a011-543ba3d12896" />|
 
 > [!WARNING]
 > ### ⚡ ATTENTION : Réglage impératif du régulateur LM2596
@@ -124,7 +120,7 @@ Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tensio
 > 
 > Brancher le régulateur sans réglage préalable ou avec une tension trop élevée entraînera la **destruction immédiate** du microcontrôleur RP2040, de l'écran LCD et de l'ensemble de vos capteurs.
 
-### Ajustement du regulateur
+### Ajustement du régulateur
 
 **À l’aide d’un multimètre et d’un petit tournevis plat, ajustez la tension en tournant la vis du potentiomètre (indiquée sur la photo ci-dessous).**
 > 🔄 **Sens de réglage du potentiomètre :**
@@ -136,5 +132,15 @@ Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tensio
 <p align="center">
 <img width="569" height="371" alt="image" src="https://github.com/user-attachments/assets/10494b81-9cd7-41e0-a7ae-1cd8d28e3c3e" />
 </p>
+
+
+## 🔋 Schéma de l'alimentation électrique
+
+Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tension est abaissée à **5 V (2 A min)** via le module LM2596 pour alimenter la carte principale, les moteurs et le servomoteur.
+
+<p align="center">
+<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/0465d19e-39bf-4fe8-96a4-ff1c747c2283" />
+</p>
+
 
 
