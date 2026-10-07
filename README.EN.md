@@ -52,7 +52,7 @@ You will find:
 
 ## Assembly Guides
 The guide is split into 3 sections (hardware, electronics, and code):
-* Rover assembly can be found in the 📂 **3D_Parts** directory
+* Rover assembly can be found in the 📂 [**3D_Parts**](https://github.com/JPMichon/uCompute_Rover/blob/main/3D_Parts/README.EN.md)
 * Sensor and electronics installation in the 📂 **Electronic** directory
 * Component operation validation in the 📂 **testcode** directory
   
