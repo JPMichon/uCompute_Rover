@@ -3,7 +3,8 @@
 ## [English version available here](./README.EN.md)
 
 
-![vue 3D](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_3D.png)
+<img width="695" height="674" alt="image" src="https://github.com/user-attachments/assets/400a5c79-fd3a-4de7-b3c9-f68ffbf25e19" />
+
 
 ## 🛠️ Matériel requis
 * 4 x Motoréducteurs CC — "TT Motor" — 200 RPM (3 à 6 VCC)
