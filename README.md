@@ -7,7 +7,7 @@
 
 
 ## 🛠️ Matériel requis
-* 4 x Motoréducteurs CC — "TT Motor" — 200 RPM (3 à 6 VCC)
+* 4 x Moteurs réductés CC — "TT Motor" — 200 RPM (3 à 6 VCC)
 * 2 x DRV8833 — Contrôleurs de moteur double pont en H (1,5 A, 3 à 10 V)
 * 1 x Module uCompute RP2040 ver 1.3 (Rover)
 * 1 x uCompute-Rover ver 1.0
