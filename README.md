@@ -73,7 +73,11 @@ L'intelligence embarquée du robot utilise la plateforme de développement auton
 ---
 ### 💡 Une architecture ouverte et universelle
 
-Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), le module de contrôle des moteurs a été développé dans un pur esprit de liberté logicielle et matérielle. L'ensemble de la structure est entièrement agnostique : le module de puissance utilisent des signaux logiques **3.3v** . Cela signifie qu'un **maker** peut tout à fait adapter ce châssis et ce module d'extension pour les piloter avec un **ESP32**, un **Arduino** ou toute autre plateforme de développement de son choix, en bricolant son propre module de contrôle ou en utilisant les modules du projet et en adaptant simplement le câblage et le script de pilotage, **libre à vous de créer un Frankenstein!**
+Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), le module de contrôle des moteurs a été développé dans un pur esprit de liberté logicielle et matérielle. L'ensemble de la structure est entièrement agnostique : le module de puissance utilise des signaux logiques **3.3v** . Cela signifie qu'un **maker** peut tout à fait adapter ce châssis et ce module d'extension pour les piloter avec un **ESP32**, un **Arduino** ou toute autre plateforme de développement de son choix, en bricolant son propre module de contrôle ou en utilisant les modules du projet et en adaptant simplement le câblage et le script de pilotage.<br>
+
+ ### 🏎️💨 Pour les projets plus exigeants
+ Il est tout à fait envisageable d'intégrer une solution plus robuste, telle qu'un **Raspberry Pi**. L'utilisation d'un micro-ordinateur de ce calibre permet de gérer des tâches de calcul lourdes ou des scripts plus complexes. Il faudra cependant veiller à ajuster le module d'alimentation du circuit : contrairement aux microcontrôleurs classiques, un Raspberry Pi nécessite une source d'énergie stable et un ampérage plus élevé (généralement 5V et jusqu'à 3A) pour fonctionner sans coupure. Une fois cette adaptation électrique logicielle et matérielle effectuée, les possibilités de votre montage s'en trouveront démultipliées.<br>
+**libre à vous de créer un Frankenstein! 🧟‍♂️**
 
 ---
 
