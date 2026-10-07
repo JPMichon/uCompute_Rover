@@ -73,6 +73,16 @@ _Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 | :---: | :---: | :---: | :---: |
 |<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/c107f1a8-6312-4248-9366-c316a7f7d4ba" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/57736bb1-8eb8-4f72-b4a3-aec0f6b3897c" />|<img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/de930fa3-1bfb-46a3-a759-b9004eb18326" />|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/f7e2de8b-040c-4291-987d-cc17d87b8475" />|
 
+## ⚙️ Préparation et installation de la bande NeoPixel
+### **Vous aurez besoin de:** <br>
+• 3 x fils avec connecteur **DuPont** femelle a l'un des bouts. Longueur environ **25 cm**,<br>
+• 1 x bande **Neopixel** de 8 x **WS2812B** (5050) adressables,<br>
+• 2 vis perçante de (3 mm  x 5 mm), <br>
+
+### Étapes:
+| Vue de la bande Neopixel | Souder les fils <br> sur le coté  avec DI  | Résultat | Préparer 2 vis de montage | Fixer le module NeoPixel <br> sous le sonar |
+| :---: | :---: | :---: | :---: | :---: |
+|<img width="174" height="140" alt="image" src="https://github.com/user-attachments/assets/cdb4634b-3352-4bdd-9df5-cf7747b15e1e" /> | <img width="140" height="140" alt="image" src="https://github.com/user-attachments/assets/32493c68-3fc3-417f-8772-2d89dd0ca7c9" /> | <img width="174" height="140" alt="image" src="https://github.com/user-attachments/assets/1256647f-7e10-459c-887c-93a61bae876d" /> | <img width="140" height="140" alt="image" src="https://github.com/user-attachments/assets/5aad3843-ac5f-4070-b4c9-71dc1bb1a9b1" /> | <img width="174" height="140" alt="image" src="https://github.com/user-attachments/assets/56701e16-c661-4b51-9658-7692be9a8ef8" />|
 
 
 
