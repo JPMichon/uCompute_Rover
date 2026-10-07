@@ -2,7 +2,7 @@
 
 ## [Version française disponible ici](./README.md)
 
-![3D View](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_3D.png)
+<img width="695" height="674" alt="image" src="https://github.com/user-attachments/assets/dbe6da44-553b-4701-a062-297b63ab90b3" />
 
 ## 🛠️ Required Hardware
 * 4 x DC Gear Motors — "TT Motor" — 200 RPM (3 to 6 VDC)
