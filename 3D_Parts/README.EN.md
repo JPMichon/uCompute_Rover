@@ -1,28 +1,28 @@
-**# Impression du Rover
+# Printing the Rover
 
 ![3D View](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_3D.png)
 
-## Voici un tableau récapitulatif des pièces à imprimer.
+## Here is a summary table of the parts to be printed.
 
-| Catégorie | Nom de la pièce | Fichier STL recommandé | Quantité | Taux de remplissage (Infill) suggéré | Notes et spécificités |
+| Category | Part Name | Recommended STL File | Quantity | Suggested Infill | Notes and Specifics |
 | :--- | :--- | :--- | :---: | :---: | :--- |
-| **Structure Principale** | **Les Côtés** | `Rover_Side_L_fixed.stl`<br>`Rover_Side_R_fixed.stl` | **2** <br>*(1 gauche / 1 droit)* | **30 %** | Côtés latéraux du Rover. |
-| **Structure Principale** | **Les Jambes** | `Rover_Legs_V4.stl` | **2** | **30 %** | La version **V4** permet d'utiliser des vis de **25 mm x 3 mm**. Pièce mécanique sollicitée. |
-| **Structure Principale** | **Détection de Collision** | `frontal_sensor_v3.stl` | **1** | **30 %** | La version **v3** permet d'accueillir un module de **8 Neopixels** en plus du capteur **HC-SR04**. |
-| **Structure Principale** | **Tablette** | `Tablette.stl` | **2** | **30 %** | Support structurel de base et logement pour les batteries. |
-| **Structure Principale** | **Tablette du Haut** | `Servo_plate_v2.stl` | **1** | **30 %** | Reçoit un **servo-moteur 9g** et sert de support pour les antennes. |
-| **Électronique & Capteurs**| **Tableau Électronique** | `Electronic_plate_v2_uCRP2040.stl` | **1** | **30 %** | Conçu pour la carte **RP2040 Ucompute V1.3**. |
+| **Main Structure** | **Sides** | `Rover_Side_L_fixed.stl`<br>`Rover_Side_R_fixed.stl` | **2** <br>*(1 left / 1 right)* | **30%** | Lateral sides of the Rover. |
+| **Main Structure** | **Legs** | `Rover_Legs_V4.stl` | **2** | **30%** | The **V4** version allows the use of **25 mm x 3 mm** screws. High-stress mechanical part. |
+| **Main Structure** | **Collision Detection** | `frontal_sensor_v3.stl` | **1** | **30%** | The **v3** version accommodates an **8-Neopixel** module in addition to the **HC-SR04** sensor. |
+| **Main Structure** | **Shelf** | `Tablette.stl` | **2** | **30%** | Base structural support and battery housing. |
+| **Main Structure** | **Top Shelf** | `Servo_plate_v2.stl` | **1** | **30%** | Holds a **9g servo motor** and serves as a support for the antennas. |
+| **Electronics & Sensors**| **Electronics Board** | `Electronic_plate_v2_uCRP2040.stl` | **1** | **30%** | Designed for the **RP2040 Ucompute V1.3** board. |
 
-Il n'y a pas de recommandation spécifique sur le type de plastique, mon POC a été imprimé en PLA. Profitez-en pour utiliser vos restants de rouleau, **soyez créatifs !**
+There is no specific recommendation regarding the type of plastic; my POC (Proof of Concept) was printed in PLA. Feel free to use your leftover filament spools, **be creative!**
 
-## Vue des pièces imprimés
+## View of the Printed Parts
 
 <img width="824" height="688" alt="image" src="https://github.com/user-attachments/assets/f10d11fc-7654-4ade-9636-a0aaced1e533" />
 
-A noter sur la photo, les **jambes** (En rouge) sont déjà assemblées aux pièces latérales (**côtés**) en blanc. Elles sont simplement insérées en presse-fit. 
+Note in the photo, the **legs** (in red) are already assembled to the white lateral pieces (**sides**). They are simply press-fitted together. 
 
 > [!NOTE]
-> Sur l'image, la version 2 du support du **HC-SR04** `frontal_sensor_v2.stl` été imprimé.<br> Je vous suggère d'imprimer la version 3 du support `frontal_sensor_v3.stl`.
+> In the image, version 2 of the **HC-SR04** mount (`frontal_sensor_v2.stl`) was printed.<br> I suggest you print version 3 of the mount (`frontal_sensor_v3.stl`).
 
 ---
 
