@@ -166,6 +166,12 @@ Les moteurs ont déjà été connecté précédemment. Si il ne le sont pas, vou
 | :---: | :---: | :---: | :---: |
 |<img width="260" height="260" alt="image" src="https://github.com/user-attachments/assets/d5e51127-a20c-459e-b88b-437bd7cad6f1" /> | <img width="210" height="265" alt="image" src="https://github.com/user-attachments/assets/8a936ef8-850f-44cf-b5c1-ff70a51956a8" /> |<img width="220" height="270" alt="image" src="https://github.com/user-attachments/assets/c901930c-2662-46a1-947c-ffec8f33ab00" /> |<img width="220" height="270" alt="image" src="https://github.com/user-attachments/assets/addd0c1f-4bb3-4e6b-9fe0-355f3d8e9717" />|
 
+## Plus d'un capteur I2C, pas de problème
+Il y a de forte chance pour que vous désiriez avoir plus d'un capteur I2C. La solution est assez simple et ce résout par un simple bricollage.
+
+| Vu du dessus | Détail des soudures | 
+| :---: | :---: |
+|<img width="490" height="482" alt="image" src="https://github.com/user-attachments/assets/60e30bce-4825-49b2-8960-8a73b0164005" /> | <img width="476" height="485" alt="image" src="https://github.com/user-attachments/assets/09589e99-1ec8-4e45-9f84-ce6641fc09cc" /> |
 
 
 
