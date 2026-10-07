@@ -46,11 +46,6 @@ Le projet **uCompute Rover** repose sur une architecture matérielle entièremen
 Le « cerveau » et les différents modules de communication requis proviennent de l'écosystème global **RP2040 uCompute**.
 
 ---
-### 💡 Une architecture ouverte et universelle
-
-Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), le module de contrôle des moteurs a été développé dans un pur esprit de liberté logicielle et matérielle. L'ensemble de la structure est entièrement agnostique : le circuit de puissance et les drivers de moteurs utilisent des signaux logiques standards. Cela signifie qu'un **maker** peut tout à fait adapter ce châssis et ce module d'extension pour les piloter avec un **ESP32**, un **Arduino** ou toute autre plateforme de développement de son choix, en bricolant son propre module de contrôle ou en utilisant les modules du projet et en adaptant simplement le câblage et le script de pilotage, **libre à vous!**
-
----
 
 ## 🔗 Dépôt Parent & Documentation Électronique
 
@@ -74,6 +69,11 @@ Le guide est est séparé en 3 sections ( le matériel, l'électronique et le co
 ### 🧠 Le Cœur du Système : uCompute
 L'intelligence embarquée du robot utilise la plateforme de développement autonome **uCompute** (basée sur le microcontrôleur Raspberry Pi RP2040). C'est elle qui gère l'exécution des scripts de pilotage (MicroPython), l'interface graphique de diagnostic et la centralisation des données des capteurs.<br>
 <img width="775" height="350" alt="image" src="https://github.com/user-attachments/assets/4a8f9f4d-8950-45fe-b8cd-cc78aa2371bc" />
+
+---
+### 💡 Une architecture ouverte et universelle
+
+Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), le module de contrôle des moteurs a été développé dans un pur esprit de liberté logicielle et matérielle. L'ensemble de la structure est entièrement agnostique : le circuit de puissance et les drivers de moteurs utilisent des signaux logiques standards. Cela signifie qu'un **maker** peut tout à fait adapter ce châssis et ce module d'extension pour les piloter avec un **ESP32**, un **Arduino** ou toute autre plateforme de développement de son choix, en bricolant son propre module de contrôle ou en utilisant les modules du projet et en adaptant simplement le câblage et le script de pilotage, **libre à vous!**
 
 ---
 
