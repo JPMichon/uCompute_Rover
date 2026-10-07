@@ -92,6 +92,10 @@ _Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 Pour cette partie, vous aurez besoins de **colle chaude…** <br>
 Vivement l'artisanat! <br>
 
+### **Vous aurez besoin de:** <br>
+• 4 x fils avec connecteur **DuPont** femelle au deux bouts. Longueur environ **25 cm**,<br>
+• 1 x Module de Sonar HC-SR04<br>
+
 ### Étapes:
 | Installation des **fiches Dupont** <br> sur le sonar | Installation du capteur dans son socle <br> un peu de colle chaude pour le tenir en place |
 | :---: | :---: |
@@ -103,9 +107,7 @@ Vivement l'artisanat! <br>
 
 
 
-### **Vous aurez besoin de:** <br>
-• 4 x fils avec connecteur **DuPont** femelle au deux bouts. Longueur environ **25 cm**,<br>
-• 1 x Module de Sonar HC-SR04<br>
+
 
 
 
