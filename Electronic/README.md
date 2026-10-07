@@ -176,7 +176,8 @@ Les moteurs ont déjà été connecté précédemment. Si il ne le sont pas, vou
 Bien que facultative, cette partie est néanmoins importante si vous **désirez** avoir un projet fiable dans le temps. Les pièces horizontales ont été conçues avec des encoches pour faciliter la gestion du câblage en permettant l'utilisation de **serre-câbles (Tie-Wraps) de 10 cm** afin de retenir solidement les **câbles**. Libre à vous de les utiliser à bon escient.
 
 ###Localisation des encoches<br>
-<img width="338" height="428" alt="image" src="https://github.com/user-attachments/assets/6c4ad347-de4c-4709-ba90-b360f6cfbd97" />
+
+<img width="170" height="215" alt="image" src="https://github.com/user-attachments/assets/6c4ad347-de4c-4709-ba90-b360f6cfbd97" />
 
 
 ## Le branchement du GPS
