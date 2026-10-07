@@ -105,6 +105,17 @@ Vivement l'artisanat! <br>
 > La colle chaude a un point de fusion au alentour de 190 °C. très près des températures d'impression des pièces en 3D. <br>
 > **Allez y parcimonieusement** avec la colle chaude pour évitez de déformer vos pièces.
 
+## ⚙️ Installation du servo moteur
+### **Vous aurez besoin de:** <br>
+• 1 x **SG90 Mini Gear Micro 9g** Servo ou équivallent,<br>
+• 2 vis perçante de (2 mm  x 5 mm). (généralement inclus avec le Servo). <br>
+### Étapes:
+| Image du servo | Préparer 2 vis | Fixer le servo <br> au support |
+| :---: | :---: | :---: |
+|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/668c6d31-3bc1-4559-942a-de1110a8d83f" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/c54f9c5b-419e-45fa-821b-f27f2311db96" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/6fb1a63c-3361-4c0a-aba4-560b6990f80c" />|
+
+
+
 ## ⚙️ Préparation du LM2596
 ### **Vous aurez besoin de:** <br>
 • 1 x fil à deux conducteurs de calibre **24 AWG** d'environ **10 cm**.,<br>
