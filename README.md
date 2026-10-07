@@ -61,7 +61,7 @@ Vous y trouverez :
 
 ## Guide d'assemblages
 Le guide est est séparé en 3 sections ( le matériel, l'électronique et le code ) soit :
-* L'assemblage du Rover ce trouve dans le répertoire 📂 **3D_Parts**
+* L'assemblage du Rover ce trouve dans le répertoire 📂 [**3D_Parts**](https://github.com/JPMichon/uCompute_Rover/blob/main/README.md)
 * L'installation des capteurs et de l'électronique dans le répertoire 📂 **Electronic**
 * Validation du fonctionnement des composantes 📂 **testcode**
   
