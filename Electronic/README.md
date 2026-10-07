@@ -74,6 +74,10 @@ _Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 |<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/c107f1a8-6312-4248-9366-c316a7f7d4ba" /> | <img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/57736bb1-8eb8-4f72-b4a3-aec0f6b3897c" />|<img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/de930fa3-1bfb-46a3-a759-b9004eb18326" />|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/f7e2de8b-040c-4291-987d-cc17d87b8475" />|
 
 ## ⚙️ Préparation et installation de la bande NeoPixel
+
+> [!NOTE]
+> Le support des capteurs 'frontal_sensor_v3.stl' intègre spécifiquement la bande Neopixel.
+> 
 ### **Vous aurez besoin de:** <br>
 • 3 x fils avec connecteur **DuPont** femelle a l'un des bouts. Longueur environ **25 cm**,<br>
 • 1 x bande **Neopixel** de 8 x **WS2812B** (5050) adressables,<br>
