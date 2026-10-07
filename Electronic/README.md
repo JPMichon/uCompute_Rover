@@ -97,6 +97,9 @@ Vivement l'artisanat! <br>
 | :---: | :---: |
 |<img width="140" height="140" alt="image" src="https://github.com/user-attachments/assets/ae667222-eca8-4012-8073-a54363463a40" />|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/83c1719c-cbda-49d0-8bfa-db9b828553cb" />|
 
+> [!NOTE]
+> La colle chaude a un point de fusion au alentour de 190 °C. très près des températures d'impression des pièces en 3D. **Allez y parcimonieusement** avec la colle chaude pour évitez de déformer vos pièces.
+
 
 
 
