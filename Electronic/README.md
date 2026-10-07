@@ -114,8 +114,6 @@ Vivement l'artisanat! <br>
 | :---: | :---: | :---: |
 |<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/668c6d31-3bc1-4559-942a-de1110a8d83f" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/c54f9c5b-419e-45fa-821b-f27f2311db96" /> | <img width="140" height="175" alt="image" src="https://github.com/user-attachments/assets/6fb1a63c-3361-4c0a-aba4-560b6990f80c" />|
 
-
-
 ## ⚙️ Préparation du LM2596
 ### **Vous aurez besoin de:** <br>
 • 1 x fil à deux conducteurs de calibre **24 AWG** d'environ **10 cm**.,<br>
@@ -144,6 +142,20 @@ Vivement l'artisanat! <br>
 <p align="center">
 <img width="569" height="371" alt="image" src="https://github.com/user-attachments/assets/10494b81-9cd7-41e0-a7ae-1cd8d28e3c3e" />
 </p>
+
+## Les branchements
+
+L'alimentation, le Sonar HC-SR04 et le Servo ce connecte tous a cet endroit sur la carte de controle.<br>
+Les **Neopixels** ce connecte directement sur le uCompute.<br>
+
+Les moteurs ont déjà été connecté précédemment. Si il ne le sont pas, vous pouvez les connecter. <br> 
+
+### Étapes:
+| Gros plan sur les connecteurs | une fois connectés| Branchez le Neopixel <br> directement sur le uCompute | Branchez le INA219 <br> à l'arrière du uCompute |
+| :---: | :---: | :---: | :---: |
+|<img width="260" height="260" alt="image" src="https://github.com/user-attachments/assets/d5e51127-a20c-459e-b88b-437bd7cad6f1" /> | <img width="210" height="265" alt="image" src="https://github.com/user-attachments/assets/8a936ef8-850f-44cf-b5c1-ff70a51956a8" /> |<img width="220" height="270" alt="image" src="https://github.com/user-attachments/assets/c901930c-2662-46a1-947c-ffec8f33ab00" /> |<img width="220" height="270" alt="image" src="https://github.com/user-attachments/assets/addd0c1f-4bb3-4e6b-9fe0-355f3d8e9717" />|
+
+
 
 
 ## 🔋 Schéma de l'alimentation électrique
