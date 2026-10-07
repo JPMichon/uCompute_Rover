@@ -67,7 +67,7 @@ Vous y trouverez :
 Le guide est est séparé en 3 sections ( le matériel, l'électronique et le code ) soit:
 * L'assemblage du Rover ce trouve dans le répertoire 📂 **3D_Parts**
 * L'installation des capteurs et de l'électronique dans le répertoire 📂 **Electronic**
-* Validation du fonctionnement des composantes 📂 **testcode*
+* Validation du fonctionnement des composantes 📂 **testcode**
   
 ---
 
