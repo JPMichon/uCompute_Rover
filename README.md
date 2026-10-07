@@ -33,8 +33,9 @@
 ---
 
 ## ⚡Vue schématisé de l'électronique embarqué
-<img width="353" height="380" alt="image" src="https://github.com/user-attachments/assets/00ff8261-1ec5-4b57-87cb-6808611c9471" />
-
+<p align="center">
+<img width="500" height="550" alt="image" src="https://github.com/user-attachments/assets/00ff8261-1ec5-4b57-87cb-6808611c9471" />
+</p>
 
 ---
 
