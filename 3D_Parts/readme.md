@@ -1,9 +1,6 @@
 # Impression du Rover
 
-
 ![3D View](https://github.com/JPMichon/uCompute_Rover/blob/main/Rover_3D.png)
-
-
 
 ## Voici un tableau récapitulatif des pièces à imprimer.
 
