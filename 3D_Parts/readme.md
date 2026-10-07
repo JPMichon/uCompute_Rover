@@ -1,7 +1,8 @@
 # Impression du Rover
 
 
-<img width="751" height="715" alt="image" src="https://github.com/user-attachments/assets/4a28565e-bafb-4b29-a7ef-f42afe067af9" />
+<img width="695" height="674" alt="image" src="https://github.com/user-attachments/assets/dbe6da44-553b-4701-a062-297b63ab90b3" />
+
 
 
 ## Voici un tableau récapitulatif des pièces à imprimer.
