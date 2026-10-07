@@ -76,7 +76,7 @@ _Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 ## ⚙️ Préparation et installation de la bande NeoPixel
 
 > [!NOTE]
-> Le support des capteurs 'frontal_sensor_v3.stl' intègre spécifiquement la bande Neopixel.
+> Seulement disponible pour le  `frontal_sensor_v3.stl` intégrant nativement la bande **Neopixel**.
 > 
 ### **Vous aurez besoin de:** <br>
 • 3 x fils avec connecteur **DuPont** femelle a l'un des bouts. Longueur environ **25 cm**,<br>
