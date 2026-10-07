@@ -168,7 +168,7 @@ Les moteurs ont déjà été connecté précédemment. Si il ne le sont pas, vou
 
 
 ## Gestion du câblage:
-Cette partie est facultative, mais néanmoins importante si vous **désirez** avoir un projet fiable dans le temps. Les pièces horizontales ont été conçues avec des encoches pour faciliter la gestion du câblage en permettant l'utilisation de **serre-câbles [10 cm] (Tie-Wraps)** afin de retenir solidement les **câbles**. Libre à vous de les utiliser à bon escient.
+Cette partie est facultative, mais néanmoins importante si vous **désirez** avoir un projet fiable dans le temps. Les pièces horizontales ont été conçues avec des encoches pour faciliter la gestion du câblage en permettant l'utilisation de **serre-câbles (Tie-Wraps) de 10 cm** afin de retenir solidement les **câbles**. Libre à vous de les utiliser à bon escient.
 
 <img width="338" height="428" alt="image" src="https://github.com/user-attachments/assets/6c4ad347-de4c-4709-ba90-b360f6cfbd97" />
 
