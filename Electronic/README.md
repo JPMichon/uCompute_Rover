@@ -110,7 +110,7 @@ Vivement l'artisanat! <br>
 
 
 
-## 🔋 Schéma de connection de l'alimentation
+## 🔋 Schéma de l'alimentation électrique
 
 Le Rover est propulsé par un boîtier de 6 piles AA (ou équivalent). La tension est abaissée à **5 V (2 A min)** via le module LM2596 pour alimenter la carte principale, les moteurs et le servomoteur.
 
