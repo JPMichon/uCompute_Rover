@@ -88,6 +88,23 @@ _Si c’est assez bon pour la NASA, c’est bon pour le Rover !_
 | :---: | :---: | :---: | :---: | :---: |
 |<img width="174" height="140" alt="image" src="https://github.com/user-attachments/assets/cdb4634b-3352-4bdd-9df5-cf7747b15e1e" /> | <img width="140" height="140" alt="image" src="https://github.com/user-attachments/assets/32493c68-3fc3-417f-8772-2d89dd0ca7c9" /> | <img width="174" height="140" alt="image" src="https://github.com/user-attachments/assets/1256647f-7e10-459c-887c-93a61bae876d" /> | <img width="140" height="140" alt="image" src="https://github.com/user-attachments/assets/5aad3843-ac5f-4070-b4c9-71dc1bb1a9b1" /> | <img width="174" height="140" alt="image" src="https://github.com/user-attachments/assets/56701e16-c661-4b51-9658-7692be9a8ef8" />|
 
+## :scissors: Installation du Sonar HC-SR04
+Pour cette partie, vous aurez besoins de **colle chaude…** <br>
+Vivement l'artisanat! <br>
+
+### Étapes:
+| Installation des **fiches Dupont** <br> sur le sonar | Installation du capteur dans son socle <br> un peu de colle chaude pour le tenir en place |
+| :---: | :---: |
+|<img width="140" height="140" alt="image" src="https://github.com/user-attachments/assets/ae667222-eca8-4012-8073-a54363463a40" />|<img width="175" height="140" alt="image" src="https://github.com/user-attachments/assets/83c1719c-cbda-49d0-8bfa-db9b828553cb" />|
+
+
+
+
+### **Vous aurez besoin de:** <br>
+• 4 x fils avec connecteur **DuPont** femelle au deux bouts. Longueur environ **25 cm**,<br>
+• 1 x Module de Sonar HC-SR04<br>
+
+
 
 
 ### Installation:
