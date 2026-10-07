@@ -77,6 +77,7 @@ Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), l
 
  ### 🏎️💨 Pour les projets plus exigeants
  Il est tout à fait envisageable d'intégrer une solution plus robuste, telle qu'un **Raspberry Pi**. L'utilisation d'un micro-ordinateur de ce calibre permet de gérer des tâches de calcul lourdes ou des scripts plus complexes. Il faudra cependant veiller à ajuster le module d'alimentation du circuit : contrairement aux microcontrôleurs classiques, un Raspberry Pi nécessite une source d'énergie stable et un ampérage plus élevé (généralement 5V et jusqu'à 3A) pour fonctionner sans coupure. Une fois cette adaptation électrique logicielle et matérielle effectuée, les possibilités de votre montage s'en trouveront démultipliées.<br>
+ 
 **libre à vous de créer un Frankenstein! 🧟‍♂️**
 
 ---
