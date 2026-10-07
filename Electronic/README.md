@@ -166,6 +166,12 @@ Les moteurs ont déjà été connecté précédemment. Si il ne le sont pas, vou
 | :---: | :---: | :---: | :---: |
 |<img width="260" height="260" alt="image" src="https://github.com/user-attachments/assets/d5e51127-a20c-459e-b88b-437bd7cad6f1" /> | <img width="210" height="265" alt="image" src="https://github.com/user-attachments/assets/8a936ef8-850f-44cf-b5c1-ff70a51956a8" /> |<img width="220" height="270" alt="image" src="https://github.com/user-attachments/assets/c901930c-2662-46a1-947c-ffec8f33ab00" /> |<img width="220" height="270" alt="image" src="https://github.com/user-attachments/assets/addd0c1f-4bb3-4e6b-9fe0-355f3d8e9717" />|
 
+## Gestion du cablage
+Cette partie est facultative, mais néanmoins importante si vous désirer avoir un projet fiable dans le temps.
+Les pieces horizontales on été conçues avec des encoches pour facilité la gestion du câblage en permettant l'utilisation de serre-câble (Tie-Wrap) afin de retenir solidement les cables. Libre à vous de les utiliser à bon escient.<br>
+
+<img width="338" height="428" alt="image" src="https://github.com/user-attachments/assets/6c4ad347-de4c-4709-ba90-b360f6cfbd97" />
+
 
 ## Le branchement du GPS
 **a venir**
@@ -177,8 +183,8 @@ Les moteurs ont déjà été connecté précédemment. Si il ne le sont pas, vou
 
 # EXTRA
 
-## Plus d'un capteur I2C, pas de problème
-Il y a de forte chance pour que vous désiriez avoir plus d'un capteur I2C. La solution est assez simple et ce résout par un simple bricollage.
+## Plus d'un capteur I2C ? Pas de problème !
+Il y a de fortes chances pour que vous désiriez avoir plus d'un capteur I2C dans votre projet. La solution est assez simple et se résout par un branchement en parallèle à l'aide d'un petit bricolage maison.
 
 ### Détail du bricollage
 | Vu du dessus | Détail des soudures | 
@@ -186,10 +192,12 @@ Il y a de forte chance pour que vous désiriez avoir plus d'un capteur I2C. La s
 |<img width="490" height="482" alt="image" src="https://github.com/user-attachments/assets/60e30bce-4825-49b2-8960-8a73b0164005" /> | <img width="476" height="485" alt="image" src="https://github.com/user-attachments/assets/09589e99-1ec8-4e45-9f84-ce6641fc09cc" /> |
 
 > [!NOTE]
->Le bus I2C a besoin de deux résistances de pull-up (une sur SDA, une sur SCL) reliées au VCC pour fonctionner.<br>
->• La plupart des modules de capteurs prêts à l'emploi (shields/breakouts) intègrent déjà ces résistances.<br>
->• En mettre trop en parallèle fait chuter la résistance totale ( loi d'Ohm). Si vous connectez plus de 3 ou 4 capteurs, le signal peut se dégrader.<br>
-> Si vous rencontrez des erreurs de communication, il faudra retirer (dessouder) les résistances de tirage de certains modules pour n'en garder qu'une seule paire sur tout le bus. <br>
+> 💡 **Note importante sur le bus I2C**
+> * Le bus I2C a besoin de deux résistances de tirage (*pull-up*), une sur SDA et une sur SCL, reliées au VCC pour fonctionner correctement.
+> * La plupart des modules de capteurs prêts à l'emploi (shields/breakouts) intègrent déjà ces résistances.
+> * Connecter trop de modules en parallèle fait chuter la résistance totale de tirage (loi d'Ohm / résistances en parallèle). Si vous connectez plus de 3 ou 4 capteurs, le signal peut se dégrader.
+> 
+> ⚠️ **En cas de problème :** Si vous rencontrez des erreurs de communication, il faudra retirer (dessouder) les résistances de tirage de certains modules pour n'en garder qu'une seule paire sur tout le bus.
 
 
 
