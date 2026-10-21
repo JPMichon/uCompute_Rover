@@ -2,7 +2,8 @@
 
 A vos risques
 
-<img width="628" height="745" alt="image" src="https://github.com/user-attachments/assets/449dcb6e-3a0f-4fcc-bb92-41bd3b2287ab" />
+<img width="659" height="761" alt="image" src="https://github.com/user-attachments/assets/9d93764b-a566-4956-8e0b-d68c2b9f4383" />
+
 
 
 ## Tableau de correspondance de votre câblage sous Python3
