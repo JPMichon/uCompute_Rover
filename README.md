@@ -92,6 +92,7 @@ Pour assurer la liaison sans fil et la télémétrie bidirectionnelle avec la t�
 | :--- | :--- | :--- | :--- |
 | **Socket Arrière** (Communication) | **Module Wi-Fi** (ESP-12F) | Carte d'adaptation avec ESP8266 pour une connectivité Wi-Fi. | <img width="100" height="133" alt="image" src="https://github.com/user-attachments/assets/f0c80621-1b07-46e6-844b-4594e3d338f9" />  |
 | **Socket Arrière** (Communication) | **Module Radio** (NRF24L01) | Carte d'adaptateur pour liaisons radio 2,4 GHz. | <img width="112" height="140" alt="image" src="https://github.com/user-attachments/assets/a6a0a83b-80ed-4dbc-bc28-06579f64b54c" /> |
+| **Socket Arrière** (Communication) | **Module LORA** (RFM95W) | Carte d'adaptateur pour liaisons radio LORA | <img width="112" height="140" alt="image" src="https://github.com/user-attachments/assets/729ed810-e456-4e6b-88fb-1f3c61edea25" />|
 | **Pins Header** <br> (Connecteur IOs) | **µCompute Remote** <br> (REV 1.0) | Module de commande analogue avec boutons. | <img width="175" height="131" alt="image" src="https://github.com/user-attachments/assets/25dda003-8ab8-48c4-a7d1-1a45fdbca7a4" /> |
 | **Pins Header** <br> (Connecteur IOs) | **µCompute Rover** <br> (REV 1.0) | Contrôleur de moteur DC (2+2) + Servo + HC-SR04 + Module GPS (Neo-6M). | <img width="220" height="145" alt="image" src="https://github.com/user-attachments/assets/90114819-d70b-4cbb-8cfd-5e95b66cca84" /> |
 
