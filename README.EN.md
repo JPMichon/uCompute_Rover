@@ -91,6 +91,7 @@ To ensure wireless connectivity and bidirectional telemetry with the remote cont
 | :--- | :--- | :--- | :--- |
 | **Rear Socket** (Communication) | **Wi-Fi Module** (ESP-12F) | Adapter board with ESP8266 for Wi-Fi connectivity. | <img width="100" height="133" alt="image" src="https://github.com/user-attachments/assets/f0c80621-1b07-46e6-844b-4594e3d338f9" />  |
 | **Rear Socket** (Communication) | **Radio Module** (NRF24L01) | Adapter board for 2.4 GHz radio links. | <img width="112" height="140" alt="image" src="https://github.com/user-attachments/assets/a6a0a83b-80ed-4dbc-bc28-06579f64b54c" /> |
+|**Rear Socket** <br>*(Communication)* | **Radio Module LORA** (RFM95W) | Adapter board for low-power, LORA radio links. |<img width="112" height="140" alt="image" src="https://github.com/user-attachments/assets/729ed810-e456-4e6b-88fb-1f3c61edea25" />|
 | **Pin Headers** <br> (IO Connector) | **µCompute Remote** <br> (REV 1.0) | Analog control module with buttons. | <img width="175" height="131" alt="image" src="https://github.com/user-attachments/assets/25dda003-8ab8-48c4-a7d1-1a45fdbca7a4" /> |
 | **Pin Headers** <br> (IO Connector) | **µCompute Rover** <br> (REV 1.0) | DC motor controller (2+2) + Servo + HC-SR04 + GPS Module (Neo-6M). | <img width="220" height="145" alt="image" src="https://github.com/user-attachments/assets/90114819-d70b-4cbb-8cfd-5e95b66cca84" /> |
 
