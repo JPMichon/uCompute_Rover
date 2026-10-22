@@ -60,7 +60,7 @@ Vous y trouverez :
 * 📍 La cartographie complète des ports et les spécifications techniques de la plateforme.
 
 ## Guide d'assemblages
-Le guide est est séparé en 3 sections ( le matériel, l'électronique et le code ) soit :
+Le guide est séparé en 3 sections ( le matériel, l'électronique et le code ) soit :
 * L'assemblage du Rover ce trouve dans le répertoire 📂 [**3D_Parts**](https://github.com/JPMichon/uCompute_Rover/blob/main/README.md)
 * L'installation des capteurs et de l'électronique dans le répertoire 📂 [**Electronic**](https://github.com/JPMichon/uCompute_Rover/blob/main/Electronic/README.md)
 * Validation du fonctionnement des composantes 📂 **testcode**
