@@ -69,7 +69,7 @@ The guide is split into 3 sections (hardware, electronics, and code):
 The robot's onboard intelligence utilizes the **uCompute** autonomous development platform (based on the Raspberry Pi RP2040 microcontroller). It handles the execution of driving scripts (MicroPython), the graphical diagnostic interface, and the centralization of sensor data.<br>
 <img width="775" height="350" alt="image" src="https://github.com/user-attachments/assets/4a8f9f4d-8950-45fe-b8cd-cc78aa2371bc" />
 
->💡 **Accessible Alternative:** If you want to assemble this robot but prefer to avoid soldering complex surface-mount components (SMD), the main uCompute board can easily be replaced by the [uComputeJr]([https://github.com](https://github.com/JPMichon/uComputeJr)). Designed with a "Bring your own Pico" approach, this streamlined version directly accommodates a standard, ready-to-use Raspberry Pi Pico. It maintains full backward compatibility with the I/O headers and ecosystem modules, making it the perfect gateway to easily integrate uCompute intelligence into your Rover.
+>💡 **Accessible Alternative:** If you want to assemble this robot but prefer to avoid soldering complex surface-mount components (SMD), the main uCompute board can easily be replaced by the [uComputeJr](https://github.com/JPMichon/uComputeJr). Designed with a "Bring your own Pico" approach, this streamlined version directly accommodates a standard, ready-to-use Raspberry Pi Pico. It maintains full backward compatibility with the I/O headers and ecosystem modules, making it the perfect gateway to easily integrate uCompute intelligence into your Rover.
 >
 > ℹ️ **Note:** Since the Junior board does not expose all the original pins, minor adjustments will be required for the GPIO assignments.
 
