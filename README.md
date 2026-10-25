@@ -72,7 +72,13 @@ L'intelligence embarquée du robot utilise la plateforme de développement auton
 <img width="775" height="350" alt="image" src="https://github.com/user-attachments/assets/4a8f9f4d-8950-45fe-b8cd-cc78aa2371bc" />
 
 ---
-### 💡 Une architecture ouverte et universelle
+
+> 💡**Alternative accessible :** Si vous souhaitez assembler ce robot mais préférez éviter la soudure de composants de surface (CMS) complexes, la **uCompute** peut tout à fait être remplacée par le [uComputeJr](https://github.com/JPMichon/uComputeJr/tree/main). Conçue selon une approche **"Bring your own Pico"**, cette déclinaison allégée accueille directement un Raspberry Pi Pico standard prêt à l'emploi. Elle conserve une compatibilité descendante totale avec le peigne d'E/S et les modules de l'écosystème, constituant ainsi la passerelle idéale pour intégrer l'intelligence uCompute à votre Rover en toute simplicité.
+> 
+>ℹ️ **Note**: La carte Junior n'exposant pas toutes les broches d'origine, de légers ajustements seront nécessaires dans l'assignation des GPIOs.
+<br>
+
+### 📐 Une architecture ouverte et universelle
 
 Bien que le projet soit conçu autour de l'écosystème **uCompute** (RP2040), le module de contrôle des moteurs a été développé dans un pur esprit de liberté logicielle et matérielle. L'ensemble de la structure est entièrement agnostique : le module de puissance utilise des signaux logiques **3.3v** . Cela signifie qu'un **maker** peut tout à fait adapter ce châssis et ce module d'extension pour les piloter avec un **ESP32**, un **Arduino** ou toute autre plateforme de développement de son choix, en bricolant son propre module de contrôle ou en utilisant les modules du projet et en adaptant simplement le câblage et le script de pilotage.<br>
 
