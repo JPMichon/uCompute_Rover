@@ -2,7 +2,8 @@
 
 A vos risques
 
-<img width="659" height="761" alt="image" src="https://github.com/user-attachments/assets/9d93764b-a566-4956-8e0b-d68c2b9f4383" />
+<img width="724" height="839" alt="image" src="https://github.com/user-attachments/assets/285a4e1c-8e86-4149-925e-53eddfd74b98" />
+
 
 
 
