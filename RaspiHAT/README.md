@@ -6,7 +6,6 @@ A vos risques
 
 
 
-
 ## Tableau de correspondance de votre câblage sous Python3
 
 
@@ -38,3 +37,17 @@ A vos risques
 | **Servomoteur** | Servo 1 (`M1`) | **GPIO 20** |  | Commande de position angulaire (PWM) |
 | **Servomoteur** | Servo 2 (`M1`) | **GPIO 21** |  | Commande de position angulaire (PWM) |
 | **NeoPixel** |`DI`|**GPIO 19**| Broche 35 | Signal Données NeoPixel WS2812B |
+
+
+Version préliminaire <br>
+<img width="833" height="622" alt="image" src="https://github.com/user-attachments/assets/d6b8107f-96bd-4c11-b19a-7536e8db5db1" />
+
+<img width="481" height="697" alt="image" src="https://github.com/user-attachments/assets/bda82363-5f9d-4d3a-b798-940965958e41" />
+
+<img width="512" height="671" alt="image" src="https://github.com/user-attachments/assets/b8b6e79b-4d0a-4950-9bf9-986f170248af" />
+
+<img width="444" height="608" alt="image" src="https://github.com/user-attachments/assets/aa1b6f92-8ef1-40e4-a946-5e4110ff0dbc" />
+
+
+
+
