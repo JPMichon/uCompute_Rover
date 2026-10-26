@@ -33,7 +33,8 @@ A vos risques
 | **Moniteur Énergie** | `VCC Detect` | **GPIO 7** | Broche 26 | Surveillance de la présence de la tension de puissance |
 | **Télémètre (HC-SR04)** | `TRIG` | **GPIO 23** | Broche 16 | Émission de l'impulsion ultrason |
 | | `ECHO` | **GPIO 24** | Broche 18 | Mesure du temps de retour de l'onde |
-| **Alerte Sonore** | `BUZ1` | **GPIO 16** |  | Signal sonore d'état ou d'erreur (Buzzer) |
+| **Alerte Sonore** | `BUZ` | **GPIO 16** |  | Signal sonore d'état ou d'erreur (Buzzer) |
+| **Fan Controle** | `BUZ` | **GPIO 18** |  | Activation/desactivation du FAN |
 | **Servomoteur** | Servo 1 (`M1`) | **GPIO 20** |  | Commande de position angulaire (PWM) |
 | **Servomoteur** | Servo 2 (`M1`) | **GPIO 21** |  | Commande de position angulaire (PWM) |
 | **NeoPixel** |`DI`|**GPIO 19**| Broche 35 | Signal Données NeoPixel WS2812B |
