@@ -38,9 +38,22 @@ A vos risques
 | **Servomoteur** | Servo 2 (`M1`) | **GPIO 21** |  | Commande de position angulaire (PWM) |
 | **NeoPixel** |`DI`|**GPIO 19**| Broche 35 | Signal Données NeoPixel WS2812B |
 
+## Module de gestion d'allimentation (Power Management)
 
-Version préliminaire <br>
+Ce module permet de réglé la spaghetti du cablage tout en permettant d'avoir du monitoring des alimentations.
+
+<img width="1051" height="724" alt="image" src="https://github.com/user-attachments/assets/eed6e33b-775d-4ea7-8a05-cf65b467892f" />
+
+## Version préliminaire  <br>
+
+Le Raspi sur son support du Rover.
+
+A noter le trou pour le micro interrupteur. Une nouvelle version avec deux trous sera disponible sous peu. <br>
+
+
 <img width="833" height="622" alt="image" src="https://github.com/user-attachments/assets/d6b8107f-96bd-4c11-b19a-7536e8db5db1" />
+
+## (Beauty Shoots) du rover
 
 <img width="481" height="697" alt="image" src="https://github.com/user-attachments/assets/bda82363-5f9d-4d3a-b798-940965958e41" />
 
