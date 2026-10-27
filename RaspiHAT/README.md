@@ -53,7 +53,7 @@ A noter le trou pour le micro interrupteur. Une nouvelle version avec deux trous
 
 <img width="833" height="622" alt="image" src="https://github.com/user-attachments/assets/d6b8107f-96bd-4c11-b19a-7536e8db5db1" />
 
-## (Beauty Shoots) du rover avec une version <alpha> du hat pour le raspberry PI
+## (Beauty Shoots) du rover avec une version _prototype_ du hat pour le raspberry PI
 
 <img width="481" height="697" alt="image" src="https://github.com/user-attachments/assets/bda82363-5f9d-4d3a-b798-940965958e41" />
 
