@@ -44,7 +44,7 @@ Ce module permet de réglé la spaghetti du cablage tout en permettant d'avoir d
 
 <img width="1051" height="724" alt="image" src="https://github.com/user-attachments/assets/eed6e33b-775d-4ea7-8a05-cf65b467892f" />
 
-## Version préliminaire  <br>
+## Version provisoire  <br>
 
 Le Raspi sur son support du Rover.
 
