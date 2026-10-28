@@ -1,10 +1,66 @@
-# Contribuer au projet uCompute Ecosystem 🚀
+# Contributing to uCompute Ecosystem / Contribuer au projet 🚀
+
+---
+
+### 🌍 Note from the author / Note de l'auteur
+> **FR:** Bonjour ! Je suis francophone et mon anglais n'est pas parfait. Merci d'avance pour votre indulgence. Vous pouvez ouvrir des discussions, des tickets ou des Pull Requests en français ou en anglais !
+>
+> **EN:** Hello! I am a native French speaker and my English is not perfect. Feel free to open discussions, issues, or pull requests in either French or English!
+
+---
+## ENGLISH
+
+Thank you for your interest in the **uCompute Ecosystem** under the **CC BY-NC-SA 4.0** license. With a stable hardware foundation, contributions are welcome for the application layer (computer vision, telemetry, and ROS 2 porting).
+
+For full details regarding the current status, contribution areas, submission guidelines, and code of conduct, please refer to the complete markdown text in the source documentation.
+
+*The hardware and power electronics are ready and isolated; grab your keyboards to give this Rover a soul!* 🛠️💻
+
+## 🎯 Current Status
+
+Bidirectional communication using binary packets (`struct.pack` / `unpack` with `"hh"` format) is fully functional between the MicroPython remote control and the Rover Pi. On the Raspberry Pi 3B+, the display and communication layers rely on native, highly optimized Python 3 tools:
+* **`pyrf24`** (an ultra-fast C++ wrapper for the NRF24L01+).
+* **`luma.oled`** (SSD1306 display management using the `with canvas(oled)` drawing context).
+
+If you feel like contributing, here are the main areas where we can advance the platform:
+
+### 🐍 1. Vision Applications & Autonomy (Python 3 / Pi 3B+)
+* Implementing computer vision scripts (**OpenCV** / **TensorFlow Lite**) leveraging the PiCam mounted on the Pan/Tilt mechanism (object tracking, shape recognition, lane keeping/trajectory hold).
+* Obstacle avoidance algorithms combining the front safety shield (HC-SR04 ultrasonic sensor) and the mobile laser scanner (ToF VL53L0X) driven by the SG90 servos.
+
+### 📊 2. Telemetry, Power Management & Sensors
+* Writing the battery monitoring and power management script by extracting data from the **INA3321** power monitor via I2C.
+* Exploiting and fusing geographical data from the **NEO-6M GPS** (via UART link) and heading from the **QMC5883 / GY-271** compass (I2C) to create waypoint navigation scripts.
+
+### 🌐 3. An Exciting Horizon: ROS 2 Porting (Robot Operating System)
+Since the Rover Pi exclusively uses industry-standard components (motors via DRV8833, compass, laser, GPS), the hardware platform is perfectly ruggedized to welcome ROS 2!
+* Creating ROS 2 nodes to encapsulate motor control using software or hardware PWM.
+* Creating conversion nodes to transform distance readings (ToF + ultrasonic) into a virtual `LaserScan` signal to enable 2D mapping and SLAM.
+
+---
+
+## 🛠️ How to Contribute?
+
+### 1. Report a bug or suggest an idea (Issues)
+* Check that the idea or bug hasn't already been reported in the **Issues** section.
+* Open a new Issue describing the problem, the expected before/after behavior, and the specific board model involved (Original, Junior, Rover Pi).
+
+### 2. Submit code changes (Pull Requests)
+1. **Fork** the corresponding repository.
+2. Create a descriptive branch for your feature (`git checkout -b feature/feature-name`).
+3. Write clean, documented code tested on real hardware.
+4. Push your branch (`git push origin feature/feature-name`).
+5. Open a **Pull Request** to the `main` branch of the original project, clearly explaining your changes.
+
+---
+
+## FRANCAIS
 
 Un grand merci de l'intérêt que vous portez à l'écosystème **uCompute** ! Que vous travailliez sur la version originale (RP2040), la version simplifiée (**uCompute Junior**) ou la version Linux avancée (**uCompute Rover Pi "Frankenstein"**), votre aide est la bienvenue.
 
 Ce projet est propulsé par les valeurs de l'Open Hardware et partagé sous licence **CC BY-NC-SA 4.0**. L'architecture matérielle (PCBs, routage, isolation de puissance) et la mécanique 3D ont été conçues pour être robustes, standardisées et modulaires. 
 
-**Le socle matériel et la communication bas niveau sont aujourd'hui stables et validés. Si vous avez envie de contribuer, un petit coup de pouce serait apprécié dans l'évolution de la couche applicative.**
+**Le socle matériel et la communication bas niveau sont aujourd'hui stables et validés. Si vous avez envie de contribuer, un petit coup de pouce serait apprécié dans l'évolution de la couche applicative.* 🛠️💻
 
 ---
 
@@ -43,12 +99,4 @@ Puisque le Rover Pi utilise exclusivement des composants standards de l'industri
 3. Écrivez un code propre, documenté et testé sur machine réelle.
 4. Poussez votre branche (`git push origin feature/nom-de-la-fonction`).
 5. Ouvrez une **Pull Request** vers la branche `main` du projet d'origine en explicitant vos changements.
-
----
-
-## 📜 Code de conduite & Esprit du projet
-
-Ce projet est né dans un esprit d'entraînement, d'apprentissage et de partage accessible (STEM/Fablabs). Nous demandons à tous les contributeurs de faire preuve de bienveillance, de respect et de pédagogie lors des échanges.
-
-*La quincaillerie et l'électronique de puissance sont prêtes et isolées, à vos claviers pour donner une âme à ce Rover !* 🛠️💻
 
