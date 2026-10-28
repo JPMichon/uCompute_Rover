@@ -4,7 +4,8 @@ A vos risques (pour l'instant, en phase de test)
 
 # Block diagram
 
-<img width="1116" height="708" alt="image" src="https://github.com/user-attachments/assets/f2ed440b-299b-4cf1-a973-c0cc3a4fbdf0" />
+<img width="1092" height="694" alt="image" src="https://github.com/user-attachments/assets/2a73a6bf-f385-48a7-b643-c1e354bbf833" />
+
 
 
 
