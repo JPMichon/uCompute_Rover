@@ -4,7 +4,8 @@ A vos risques (pour l'instant, en phase de test)
 
 # Block diagram
 
-<img width="1093" height="757" alt="image" src="https://github.com/user-attachments/assets/aa60095c-e1d3-4c7a-b411-01d15dbdf500" />
+<img width="1116" height="708" alt="image" src="https://github.com/user-attachments/assets/f2ed440b-299b-4cf1-a973-c0cc3a4fbdf0" />
+
 
 
 # Rendu 3D du RASPI ROVER HAT
