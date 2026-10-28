@@ -1,6 +1,12 @@
 # En Constuction
 
-A vos risques
+A vos risques (pour l'instant, en phase de test)
+
+# Block diagram
+<img width="1091" height="763" alt="image" src="https://github.com/user-attachments/assets/cbb57a0a-d7ca-4785-8c39-9b1b8f81d8bd" />
+
+
+# Rendu 3D du RASPI ROVER HAT
 
 <img width="698" height="815" alt="image" src="https://github.com/user-attachments/assets/49894fa0-a319-47ab-95f4-9f3d2e5b3dcc" />
 
