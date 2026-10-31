@@ -9,9 +9,12 @@ A vos risques (pour l'instant, en phase de test)
 
 
 
-# Rendu 3D du RASPI ROVER HAT
+# Rendu 3D du RASPI ROVER HAT (rev 1.2)
 
-<img width="698" height="815" alt="image" src="https://github.com/user-attachments/assets/49894fa0-a319-47ab-95f4-9f3d2e5b3dcc" />
+<img width="396" height="458" alt="image" src="https://github.com/user-attachments/assets/97d6a65a-54a3-485f-824c-eadd9b7bee40" />
+<img width="396" height="458" alt="image" src="https://github.com/user-attachments/assets/b82cd6e6-4c1e-48b1-8a13-815b899d95ea" />
+
+
 
 
 
