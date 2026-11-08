@@ -54,7 +54,8 @@ A vos risques (pour l'instant, en phase de test)
 
 Ce module permet de réglé la spaghetti du cablage tout en permettant d'avoir du monitoring des alimentations.
 
-<img width="1051" height="724" alt="image" src="https://github.com/user-attachments/assets/eed6e33b-775d-4ea7-8a05-cf65b467892f" />
+<img width="1027" height="715" alt="image" src="https://github.com/user-attachments/assets/aa85db9d-3393-42d2-9f36-6a8815b56367" />
+
 
 ### 📋 Nomenclature des coûts (BOM) — Rover version Pi 3B+
 
