@@ -62,7 +62,7 @@ Ce module permet de réglé la spaghetti du cablage tout en permettant d'avoir d
 | Qté | Description | Prix (CAD) |
 | :---: | :--- | :---: |
 | 1 | Raspberry Pi 3B+ | 60.00 $ |
-| 1 | Power module (2x bucks + INA3321) | 15.00 $ |
+| 1 | Power module (2x bucks + INA3221) | 15.00 $ |
 | 1 | GPS Module NEO6M + Antenne | 10.00 $ |
 | 1 | I2C GUI module (SSD1306 + PCF8574 + AT24C) | 15.00 $ |
 | 1 | Pi hat PCB + composants passifs | 10.00 $ |
