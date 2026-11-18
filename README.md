@@ -200,7 +200,7 @@ Ne restez pas bloqué avec un robot jouet figé. Commencez par un châssis basiq
 
 Le matériel (fichiers de conception, schémas, typons) et les logiciels de ce projet sont mis à disposition selon les termes de la Licence **Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)**.
 
-❌ **L'utilisation commerciale de ce projet (revente de PCBs nus, kits ou cartes retroPico assemblées) est strictement interdite sans autorisation préalable de l'auteur.**
+❌ **L'utilisation commerciale de ce projet (revente de PCBs nus, kits ou cartes uCompute_Rover assemblées) est strictement interdite sans autorisation préalable de l'auteur.**
 
 Consultez le fichier [LICENSE](LICENSE) pour lire l'intégralité des termes.
 
